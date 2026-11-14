@@ -1,7 +1,6 @@
 // src/scenes/GreenhouseScene.js
 import { GameState } from "../state/GameState.js";
-import { addText, addButton, drawPanel, createDaylightTracker, showAIMissionBriefing } from "../utils/ui.js";
-
+import { addText, addButton, drawPanel, createDaylightTracker, showAIMissionBriefing, spawnFloatingText } from "../utils/ui.js";
 export class GreenhouseScene extends Phaser.Scene {
   constructor() { super("GreenhouseScene"); }
 
