@@ -32,6 +32,7 @@ export function addButton(scene, x, y, label, onClick, width = 260, height = 46)
     bg.setFillStyle(0x3730a3);
     onClick();
   });
+  
 
   return { bg, txt };
 }
