@@ -247,7 +247,7 @@ export class GreenhouseScene extends Phaser.Scene {
     if (this.gameFinished) return;
     this.gameFinished = true;
 
-    GameState.minijuegosHoy.invernadero = true;
+    GameState.minijuegosHoy.invernadero = success ? "ganado" : "fallido";;
     const extraO2 = 15 + GameState.asignacionEnergia.soporteVital * 3 + (GameState.personaje === "margaret" ? 5 : 0);
 
     if (success) {

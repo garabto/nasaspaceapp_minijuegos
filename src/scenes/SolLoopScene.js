@@ -2,6 +2,7 @@
 import { addText, addButton, drawPanel } from "../utils/ui.js";
 import { GameState } from "../state/GameState.js";
 import { EMERGENCIAS, CARTAS_MEJORA } from "../data/missionData.js";
+import { getClimaMarciano, getEventoSolarReal, getFichaPorMecanica} from "../data/datasetAdapter.js";
 
 export class SolLoopScene extends Phaser.Scene {
   constructor() {
@@ -33,6 +34,7 @@ export class SolLoopScene extends Phaser.Scene {
 
     drawPanel(this, titulosFase[GameState.fase], subtitulosFase[GameState.fase]);
     this.dibujarBarraRecursos();
+    this.dibujarTelemetriaCuriosity();
 
     switch (GameState.fase) {
       case "MAÑANA":
@@ -71,6 +73,41 @@ export class SolLoopScene extends Phaser.Scene {
     });
   }
 
+ dibujarTelemetriaCuriosity() {
+    const faseSensor =
+      GameState.fase === "EMERGENCIA" ? "DIA" :
+      GameState.fase === "MEJORA" ? "NOCHE" :
+      GameState.fase;
+
+    const clima = getClimaMarciano(GameState.sol, faseSensor);
+    let modoCientifico = false;
+
+    const fondo = this.add.rectangle(480, 172, 780, 24, 0x0b1324, 0.92)
+      .setStrokeStyle(1, 0x1e3a5f)
+      .setInteractive({ useHandCursor: true });
+
+    const label = addText(
+      this,
+      480,
+      172,
+      clima.valido ? `${clima.texto}  🔍` : `🚀 Afuera en Marte: ${clima.texto}`,
+      12,
+      clima.valido ? "#7dd3fc" : "#fbbf24"
+    );
+
+    if (clima.valido) {
+      fondo.on("pointerdown", () => {
+        modoCientifico = !modoCientifico;
+        label.setText(
+          modoCientifico
+            ? `${clima.detalleCientifico}  ↩️`
+            : `${clima.texto}  🔍`
+        );
+        label.setColor(modoCientifico ? "#a7f3d0" : "#7dd3fc");
+      });
+    }
+  }
+
   // Efecto visual si falta oxígeno (< 35%) y no tiene la carta "Entrenamiento de Astronauta"
   aplicarEfectoHipoxia() {
     if (GameState.recursos.oxigeno < 35 && !GameState.mejoras.entrenamiento) {
@@ -98,12 +135,12 @@ export class SolLoopScene extends Phaser.Scene {
       GameState.asignacionEnergia.soporteVital +
       GameState.asignacionEnergia.escudos;
 
-    this.nucleosTxt = addText(this, 480, 185, "", 18, "#38bdf8");
+    this.nucleosTxt = addText(this, 480, 202, "", 16, "#38bdf8");
 
     const filas = [];
     sistemas.forEach((sys, i) => {
-      const y = 250 + i * 78;
-      this.add.rectangle(480, y, 820, 64, 0x1e293b).setStrokeStyle(2, 0x475569);
+      const y = 262 + i * 76;
+      this.add.rectangle(480, y, 820, 62, 0x1e293b).setStrokeStyle(2, 0x475569);
       addText(this, 230, y - 10, sys.nombre, 16, "#ffffff");
       addText(this, 230, y + 14, sys.desc, 12, "#94a3b8");
 
@@ -143,56 +180,96 @@ export class SolLoopScene extends Phaser.Scene {
     }, 340);
   }
 
-  // FASE 2: DÍA (Los 3 minijuegos)
+  // FASE 2: DÍA (Los 3 minijuegos + Ficha científica real de facts.json)
   renderDia() {
     const tareas = [
-      { key: "paneles", titulo: "1. Limpiar Paneles Solares (Marte)", scene: "PanelCleaningScene" },
-      { key: "co2", titulo: "2. Cambiar Filtro de CO₂ (Apolo 13)", scene: "CO2FilterScene" },
-      { key: "invernadero", titulo: "3. Regar Invernadero (Flores Zinnia)", scene: "GreenhouseScene" },
+      { key: "paneles", mechId: "mech_solar_panels", titulo: "1. Limpiar Paneles Solares (Marte)", scene: "PanelCleaningScene" },
+      { key: "co2", mechId: "mech_filter_adaptation", titulo: "2. Cambiar Filtro de CO₂ (Apolo 13)", scene: "CO2FilterScene" },
+      { key: "invernadero", mechId: "mech_irrigation", titulo: "3. Regar Invernadero (Flores Zinnia)", scene: "GreenhouseScene" },
     ];
 
+    this.add.rectangle(480, 505, 820, 74, 0x0f172a, 0.95).setStrokeStyle(1, 0x334155);
+    const fichaTitulo = addText(this, 480, 483, "📡 Pasa el cursor sobre una tarea para leer el archivo real de la NASA", 13, "#7dd3fc");
+    const fichaTexto = this.add.text(480, 513, "", {
+      fontSize: "12px",
+      color: "#e2e8f0",
+      align: "center",
+      wordWrap: { width: 790 },
+      fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+      resolution: 2,
+    }).setOrigin(0.5);
+
+    const mostrarFicha = (mechId) => {
+      const ficha = getFichaPorMecanica(mechId, GameState.sol - 1);
+      if (!ficha) return;
+      fichaTitulo.setText(`🛰️ Archivo NASA · ${ficha.titulo}`);
+      fichaTexto.setText(ficha.paraNinos);
+    };
+
     tareas.forEach((t, i) => {
-      const y = 240 + i * 85;
-      const listo = GameState.minijuegosHoy[t.key];
-      const label = listo ? `✅ ${t.titulo} · COMPLETADO` : `🚀 ${t.titulo}`;
+      const y = 232 + i * 74;
+      const estado = GameState.minijuegosHoy[t.key];
+      const terminado = Boolean(estado);
+
+      let label = `🚀 ${t.titulo}`;
+      if (estado === "fallido") {
+        label = `⚠️ ${t.titulo} · FALLIDO`;
+      } else if (terminado) {
+        label = `✅ ${t.titulo} · COMPLETADO`;
+      }
 
       const btn = addButton(this, 480, y, label, () => {
-        if (!listo) this.scene.start(t.scene);
+        if (!terminado) this.scene.start(t.scene);
       }, 540);
 
-      if (listo) {
+      btn.bg.on("pointerover", () => mostrarFicha(t.mechId));
+
+      if (estado === "fallido") {
+        btn.txt.setColor("#fca5a5");
+      } else if (terminado) {
         btn.txt.setColor("#86efac");
       }
     });
 
+    const siguiente = tareas.find((t) => !GameState.minijuegosHoy[t.key]) || tareas[0];
+    mostrarFicha(siguiente.mechId);
+
     const { paneles, co2, invernadero } = GameState.minijuegosHoy;
     if (paneles && co2 && invernadero) {
-      addText(this, 480, 495, "¡Tareas del día terminadas! Preparando sensores de radar...", 16, "#fde047");
+      fichaTitulo.setText("🚨 ¡Tareas del día terminadas! Preparando sensores de radar...").setColor("#fde047");
+      fichaTexto.setText("");
       this.time.delayedCall(1200, () => {
         GameState.fase = "EMERGENCIA";
         this.scene.restart();
       });
     }
   }
-
   // FASE 3: EMERGENCIA (Cuenta atrás y decisión con coste)
   renderEmergencia() {
+    this.decidido = false;
     const evento = Phaser.Utils.Array.GetRandom(EMERGENCIAS);
+    const solar = getEventoSolarReal(GameState.sol);
     let tiempoRestante = GameState.getParametrosDificultad().tiempoEmergencia;
 
-    this.add.rectangle(480, 340, 840, 340, 0x2b1215).setStrokeStyle(3, 0xef4444);
-    addText(this, 480, 205, evento.titulo, 21, "#fca5a5");
+    this.add.rectangle(480, 358, 840, 326, 0x2b1215).setStrokeStyle(3, 0xef4444);
+    addText(this, 480, 222, evento.titulo, 20, "#fca5a5");
 
-    this.add.text(480, 248, evento.recuerdo, {
+    const esTormentaSolar = /solar|radiaci[oó]n|llamarada|tormenta/i.test(`${evento.titulo} ${evento.alerta}`);
+    const textoRecuerdo = esTormentaSolar
+      ? `${evento.recuerdo} [NASA DONKI · Llamarada Clase ${solar.clase} · Región ${solar.regionActiva}]`
+      : evento.recuerdo;
+
+    this.add.text(480, 265, textoRecuerdo, {
       fontSize: "13px",
       color: "#cbd5e1",
       align: "center",
       wordWrap: { width: 780 },
-      fontFamily: "Inter, system-ui, -apple-system, sans-serif", resolution: 2
+      fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+      resolution: 2,
     }).setOrigin(0.5);
 
-    addText(this, 480, 292, evento.alerta, 16, "#ffffff");
-    const timerTxt = addText(this, 480, 330, `⏳ Tiempo para decidir: ${tiempoRestante} s`, 18, "#fde047");
+    addText(this, 480, 308, evento.alerta, 16, "#ffffff");
+    const timerTxt = addText(this, 480, 344, `⏳ Tiempo para decidir: ${tiempoRestante} s`, 18, "#fde047");
 
     const tomarDecision = (opcion) => {
       if (this.decidido) return;
@@ -215,8 +292,8 @@ export class SolLoopScene extends Phaser.Scene {
       },
     });
 
-    addButton(this, 480, 395, evento.opcionA.texto, () => tomarDecision(evento.opcionA), 740);
-    addButton(this, 480, 465, evento.opcionB.texto, () => tomarDecision(evento.opcionB), 740);
+    addButton(this, 480, 405, evento.opcionA.texto, () => tomarDecision(evento.opcionA), 740);
+    addButton(this, 480, 472, evento.opcionB.texto, () => tomarDecision(evento.opcionB), 740);
   }
 
   // FASE 4: NOCHE (Consumo nocturno + Visión limitada con linterna si falta energía)
@@ -234,7 +311,7 @@ export class SolLoopScene extends Phaser.Scene {
     addText(
       this,
       480,
-      230,
+      235,
       `La noche cayó sobre la base. Consumo nocturno de sistemas: -${consumo} de Energía.`,
       17,
       "#93c5fd"
@@ -243,7 +320,7 @@ export class SolLoopScene extends Phaser.Scene {
     addText(
       this,
       480,
-      275,
+      280,
       pocaEnergia
         ? "🔦 ¡BATERÍA BAJA! Las luces de cabina se apagaron. Usa tu linterna para encontrar el botón."
         : "💡 La batería mantiene la cabina iluminada con normalidad.",
@@ -302,19 +379,20 @@ export class SolLoopScene extends Phaser.Scene {
 
     opciones.forEach((carta, idx) => {
       const x = opciones.length === 1 ? 480 : 300 + idx * 360;
-      this.add.rectangle(x, 325, 320, 230, 0x13382c).setStrokeStyle(3, 0x34d399);
-      addText(this, x, 240, `🃏 ${carta.nombre}`, 16, "#6ee7b7");
-      addText(this, x, 270, `Área: ${carta.rama}`, 13, "#a7f3d0");
+      this.add.rectangle(x, 330, 320, 230, 0x13382c).setStrokeStyle(3, 0x34d399);
+      addText(this, x, 245, `🃏 ${carta.nombre}`, 16, "#6ee7b7");
+      addText(this, x, 275, `Área: ${carta.rama}`, 13, "#a7f3d0");
 
-      this.add.text(x, 325, carta.desc, {
+      this.add.text(x, 330, carta.desc, {
         fontSize: "14px",
         color: "#ffffff",
         align: "center",
         wordWrap: { width: 280 },
-        fontFamily: "Inter, system-ui, -apple-system, sans-serif", resolution: 2,
+        fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+        resolution: 2,
       }).setOrigin(0.5);
 
-      addButton(this, x, 405, "EQUIPAR CARTA", () => {
+      addButton(this, x, 410, "EQUIPAR CARTA", () => {
         GameState.mejoras[carta.id] = true;
         avanzarSiguienteSol();
       }, 210);
@@ -359,7 +437,8 @@ export class SolLoopScene extends Phaser.Scene {
       align: "center",
       wordWrap: { width: 780 },
       lineSpacing: 8,
-      fontFamily: "Inter, system-ui, -apple-system, sans-serif", resolution: 2,
+      fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+      resolution: 2,
     }).setOrigin(0.5);
 
     addButton(this, 480, 480, "VOLVER A INTENTAR", () => {

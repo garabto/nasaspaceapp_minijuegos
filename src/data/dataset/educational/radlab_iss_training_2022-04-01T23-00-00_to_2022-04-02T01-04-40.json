@@ -1,0 +1,618 @@
+{
+  "contract_path_note": "Contract lists educational/radlab_iss_training.json; section 7 requires the interval in the file name, so the interval-named file is the product.",
+  "dataset_version": "1.0.0",
+  "interval_original": {
+    "crosses_midnight": true,
+    "first": "2022-04-01T23:00:00",
+    "last": "2022-04-02T01:04:40"
+  },
+  "is_mars_surface_measurement": false,
+  "limitations": [
+    "Not a Martian series.",
+    "No medical categories, no shielding percentage, no dose integration across gaps.",
+    "seconds_since_previous is a plain difference of original timestamps; no interpolation."
+  ],
+  "platform": {
+    "instrument_id": "DosTel1",
+    "spacecraft": "ISS"
+  },
+  "records": [
+    {
+      "absorbed_dose_rate": 9.815504,
+      "record_id": "00c0f8f6c23bfc71412a696066bbe164f09c0b3f745c3f897d6346525493ed57",
+      "row_position": 0,
+      "seconds_since_previous": null,
+      "timestamp_original": "2022-04-01T23:00:00"
+    },
+    {
+      "absorbed_dose_rate": 9.835079,
+      "record_id": "ac13404e6bb6ac64683f3b5fe2bc8cbf98b39d7ea5a0e0bbd9a0b60a5aaec7ae",
+      "row_position": 1,
+      "seconds_since_previous": 33.0,
+      "timestamp_original": "2022-04-01T23:00:33"
+    },
+    {
+      "absorbed_dose_rate": 7.949537,
+      "record_id": "70c0b1f5033b8776778e55e68ddc672da09f68bee051d46527d8957d159c6670",
+      "row_position": 2,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:02:13"
+    },
+    {
+      "absorbed_dose_rate": 6.228811,
+      "record_id": "57356bee27654fc2b24805df30272926aac1e6473b904326ec4a078b9feb77fa",
+      "row_position": 3,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:03:53"
+    },
+    {
+      "absorbed_dose_rate": 5.26644315384615,
+      "record_id": "13463c203bd9e5b94ba51b40e643c7fd01fd3f7cfecc5c1210b1917305805fe0",
+      "row_position": 4,
+      "seconds_since_previous": 67.0,
+      "timestamp_original": "2022-04-01T23:05:00"
+    },
+    {
+      "absorbed_dose_rate": 5.935572,
+      "record_id": "b082716452f4e0ffede168ee0a76db026b22a38bd18ab93019af56611d383b22",
+      "row_position": 5,
+      "seconds_since_previous": 33.0,
+      "timestamp_original": "2022-04-01T23:05:33"
+    },
+    {
+      "absorbed_dose_rate": 3.554651,
+      "record_id": "9639570f2a663fda6e4a45f49ba5d2bfc426a3c1d3beb0ab1efd2b53ade819c3",
+      "row_position": 6,
+      "seconds_since_previous": 112.0,
+      "timestamp_original": "2022-04-01T23:07:25"
+    },
+    {
+      "absorbed_dose_rate": 2.907824,
+      "record_id": "216241057e92744d86500efc1d7beea8497135703a65a728a20f2f406478688e",
+      "row_position": 7,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:09:05"
+    },
+    {
+      "absorbed_dose_rate": 1.80274820916905,
+      "record_id": "7841db4f0080d8d8ea8cf19fb5aa7bedbe13b18c7be15a7b98eaa1031216c4b5",
+      "row_position": 8,
+      "seconds_since_previous": 55.0,
+      "timestamp_original": "2022-04-01T23:10:00"
+    },
+    {
+      "absorbed_dose_rate": 2.411519,
+      "record_id": "9a24d2594dfb27fcef5b2ca9589108089f2cbd236c9cc2b6e71b9a1326cbded5",
+      "row_position": 9,
+      "seconds_since_previous": 45.0,
+      "timestamp_original": "2022-04-01T23:10:45"
+    },
+    {
+      "absorbed_dose_rate": 1.65945,
+      "record_id": "30b3bf672f470da89b28bf05a7e6565584fdc2b59b0a58be57fe32bd98d34682",
+      "row_position": 10,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:12:25"
+    },
+    {
+      "absorbed_dose_rate": 7.249702,
+      "record_id": "90f12ada6fd3fb62ce9daace39989d3b967438d87bb572de5e257b2682e809fb",
+      "row_position": 11,
+      "seconds_since_previous": 1055.0,
+      "timestamp_original": "2022-04-01T23:30:00"
+    },
+    {
+      "absorbed_dose_rate": 7.249702,
+      "record_id": "a02592ef8aa9b0f577a131eb305d3c7188598c60d8d082f49ee6f980ac256700",
+      "row_position": 12,
+      "seconds_since_previous": 117.0,
+      "timestamp_original": "2022-04-01T23:31:57"
+    },
+    {
+      "absorbed_dose_rate": 9.265368,
+      "record_id": "2929aa8f2d6ce0ae4cae71da82b6e0aceb103d1faf784d4b7335745dd32aacc8",
+      "row_position": 13,
+      "seconds_since_previous": 50.0,
+      "timestamp_original": "2022-04-01T23:32:47"
+    },
+    {
+      "absorbed_dose_rate": 10.282241,
+      "record_id": "8e18202200d58e231810a86e53e01951c5fc58105c6dadfa95b0b68a1e3ace03",
+      "row_position": 14,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:34:27"
+    },
+    {
+      "absorbed_dose_rate": 10.687007,
+      "record_id": "54444dbe59d27788a736bb7c22edc7fbadbbc84220ec085a3ea7c45aa4e17f41",
+      "row_position": 15,
+      "seconds_since_previous": 33.0,
+      "timestamp_original": "2022-04-01T23:35:00"
+    },
+    {
+      "absorbed_dose_rate": 12.513412,
+      "record_id": "fdfe80acd7faee5ba297287683837ddaa71cfb97140b432a1f18259e65bb8f5e",
+      "row_position": 16,
+      "seconds_since_previous": 67.0,
+      "timestamp_original": "2022-04-01T23:36:07"
+    },
+    {
+      "absorbed_dose_rate": 11.371361,
+      "record_id": "3aff666d181676801c8d0b723e73cf43f79c48abc0ac2f118c050abb18c90ad5",
+      "row_position": 17,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:37:47"
+    },
+    {
+      "absorbed_dose_rate": 11.658574,
+      "record_id": "80b249a94a1def025c705aae17dea4896ecf4cf75aab856f425e6427f6a66c7a",
+      "row_position": 18,
+      "seconds_since_previous": 112.0,
+      "timestamp_original": "2022-04-01T23:39:39"
+    },
+    {
+      "absorbed_dose_rate": 11.4569029871795,
+      "record_id": "86ed205838a0ff419c5b24e53de4ba4c9ad3a2fac7917440ea56fc707453b00d",
+      "row_position": 19,
+      "seconds_since_previous": 21.0,
+      "timestamp_original": "2022-04-01T23:40:00"
+    },
+    {
+      "absorbed_dose_rate": 11.351039,
+      "record_id": "922e3b3fe49305b493f7761000a591f477abbef0227c7596a02a5256431a5107",
+      "row_position": 20,
+      "seconds_since_previous": 79.0,
+      "timestamp_original": "2022-04-01T23:41:19"
+    },
+    {
+      "absorbed_dose_rate": 10.851643,
+      "record_id": "d44e9922094e949a17a4097744c24a362d34d622e608461b256de93728ddbe0f",
+      "row_position": 21,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:42:59"
+    },
+    {
+      "absorbed_dose_rate": 9.250686,
+      "record_id": "691d0e353774399326fcd780b7d13f099e0c46a9b4203dc5d4c6fa86e38edff7",
+      "row_position": 22,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:44:39"
+    },
+    {
+      "absorbed_dose_rate": 9.69874016666667,
+      "record_id": "c5c223a8210148dda6601505356198d4a68f456d6462e037586993a598111981",
+      "row_position": 23,
+      "seconds_since_previous": 21.0,
+      "timestamp_original": "2022-04-01T23:45:00"
+    },
+    {
+      "absorbed_dose_rate": 9.069411,
+      "record_id": "e6fcdf7f0c06461ce08cbf956212fc20a2872f18737b8fc0816645d8f80b674a",
+      "row_position": 24,
+      "seconds_since_previous": 79.0,
+      "timestamp_original": "2022-04-01T23:46:19"
+    },
+    {
+      "absorbed_dose_rate": 6.608362,
+      "record_id": "0e33621d70e045299961679ab66b41afc55db8739678ee5678338b5180f2eea7",
+      "row_position": 25,
+      "seconds_since_previous": 112.0,
+      "timestamp_original": "2022-04-01T23:48:11"
+    },
+    {
+      "absorbed_dose_rate": 4.14739,
+      "record_id": "d14652bdd184553ad637156c1c634bc7f30ad9988b245aed803235ea5b740d21",
+      "row_position": 26,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:49:51"
+    },
+    {
+      "absorbed_dose_rate": 4.34988866666667,
+      "record_id": "143b762371e36210ebc5579bb03b9f6f1d469e7e079fcf6e51b1babc0052fab3",
+      "row_position": 27,
+      "seconds_since_previous": 9.0,
+      "timestamp_original": "2022-04-01T23:50:00"
+    },
+    {
+      "absorbed_dose_rate": 2.293914,
+      "record_id": "ff1ad4263078d3d69630cd28f7e71a8184701e41535652ee81217726bb450f03",
+      "row_position": 28,
+      "seconds_since_previous": 91.0,
+      "timestamp_original": "2022-04-01T23:51:31"
+    },
+    {
+      "absorbed_dose_rate": 2.278151,
+      "record_id": "164ba9d7ead012fffcc7530074244ad05f6ee49e5106e469f3e3455986ac9e30",
+      "row_position": 29,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:53:11"
+    },
+    {
+      "absorbed_dose_rate": 2.243457,
+      "record_id": "53cbd96cc9d6ed7fb1a9b348835444ff69f06b5fbf7c6592d0c78b7771b25cca",
+      "row_position": 30,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-01T23:54:51"
+    },
+    {
+      "absorbed_dose_rate": 2.16451164102564,
+      "record_id": "3b5884f7f5d4044cae81ef9d0ff820984adccdf4d8d73e4369d553eb9fbaca78",
+      "row_position": 31,
+      "seconds_since_previous": 9.0,
+      "timestamp_original": "2022-04-01T23:55:00"
+    },
+    {
+      "absorbed_dose_rate": 1.992561,
+      "record_id": "441c6605d50fb2884b446175193357c867bae051f31e67384b578930164d6da3",
+      "row_position": 32,
+      "seconds_since_previous": 91.0,
+      "timestamp_original": "2022-04-01T23:56:31"
+    },
+    {
+      "absorbed_dose_rate": 2.254816,
+      "record_id": "4a8a775b7dc879d3063f40b4066f54cc17729cc8e61ae56d420c9777324c4a7c",
+      "row_position": 33,
+      "seconds_since_previous": 112.0,
+      "timestamp_original": "2022-04-01T23:58:23"
+    },
+    {
+      "absorbed_dose_rate": 2.097082,
+      "record_id": "3a78e8ba8c02eb6e7b991e28c8a014e8b29c6b32a07485878149f8d7098a9ca9",
+      "row_position": 34,
+      "seconds_since_previous": 97.0,
+      "timestamp_original": "2022-04-02T00:00:00"
+    },
+    {
+      "absorbed_dose_rate": 1.657364,
+      "record_id": "e5b9136a91aafade9ed391ea5a25f7835028d2ec0498178a15810466be8f7938",
+      "row_position": 35,
+      "seconds_since_previous": 3.0,
+      "timestamp_original": "2022-04-02T00:00:03"
+    },
+    {
+      "absorbed_dose_rate": 2.379066,
+      "record_id": "fa6056ab3677b143902d607a93a5daecf80d79277d20e0ffcc0a71f0ab2457e5",
+      "row_position": 36,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:01:43"
+    },
+    {
+      "absorbed_dose_rate": 2.23318,
+      "record_id": "b42ec2efb14ba65ab9da104fd32572136792d5fce44718d428c9671e307109e9",
+      "row_position": 37,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:03:23"
+    },
+    {
+      "absorbed_dose_rate": 2.64522921794872,
+      "record_id": "fdb4fe606d336490180b1fcc794d6d66e07d060999f97a14c30a6b1e6589b33c",
+      "row_position": 38,
+      "seconds_since_previous": 97.0,
+      "timestamp_original": "2022-04-02T00:05:00"
+    },
+    {
+      "absorbed_dose_rate": 2.762479,
+      "record_id": "81f57c193561a9add32fecf6df9fc913f512c1f1c000e1488e568c2f36719c7c",
+      "row_position": 39,
+      "seconds_since_previous": 3.0,
+      "timestamp_original": "2022-04-02T00:05:03"
+    },
+    {
+      "absorbed_dose_rate": 2.908443,
+      "record_id": "ab5e3ebde70f41a9cbc24729827d9b603b00da0e6816753773dc456710f65677",
+      "row_position": 40,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:06:43"
+    },
+    {
+      "absorbed_dose_rate": 5.178867,
+      "record_id": "e9a7614bb62f072e0ab66b6ee3f42aee69f17138dbd83580e1db3f1bb68687bb",
+      "row_position": 41,
+      "seconds_since_previous": 112.0,
+      "timestamp_original": "2022-04-02T00:08:35"
+    },
+    {
+      "absorbed_dose_rate": 9.30545125,
+      "record_id": "7f5d65f1ec9bce17a5a358288ffef21c62ab9487f720a591df0b84e44b7e2473",
+      "row_position": 42,
+      "seconds_since_previous": 85.0,
+      "timestamp_original": "2022-04-02T00:10:00"
+    },
+    {
+      "absorbed_dose_rate": 8.021398,
+      "record_id": "7da94c8ee359a862d9d2c052285857aa9f5cc94a9cb17a9bd218d4ee37633701",
+      "row_position": 43,
+      "seconds_since_previous": 15.0,
+      "timestamp_original": "2022-04-02T00:10:15"
+    },
+    {
+      "absorbed_dose_rate": 12.01077,
+      "record_id": "c891db6a479aa35edbf2c798ba1c781eb4a2939bfc355ea57f1d2928f7bfa56b",
+      "row_position": 44,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:11:55"
+    },
+    {
+      "absorbed_dose_rate": 7.36686026760563,
+      "record_id": "3dce6b6f91f93c7c48c55526a61a87c6ba1e342e8be9bcf16c5497d8dd0529bb",
+      "row_position": 45,
+      "seconds_since_previous": 185.0,
+      "timestamp_original": "2022-04-02T00:15:00"
+    },
+    {
+      "absorbed_dose_rate": 6.664691,
+      "record_id": "58d82c97bf7180ecde8941a4b5f123ecf41694dad0e65d0c82aff7024614230e",
+      "row_position": 46,
+      "seconds_since_previous": 15.0,
+      "timestamp_original": "2022-04-02T00:15:15"
+    },
+    {
+      "absorbed_dose_rate": 7.988249,
+      "record_id": "280c57efb261853be91132ffc78f5daf1fbeec320b5720220065172b09547a71",
+      "row_position": 47,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:16:55"
+    },
+    {
+      "absorbed_dose_rate": 9.461556,
+      "record_id": "d5df7fbf3539f5da95bbd12de46cd5c6ed4b0239b6f82b0e6782cb95f18e281d",
+      "row_position": 48,
+      "seconds_since_previous": 113.0,
+      "timestamp_original": "2022-04-02T00:18:48"
+    },
+    {
+      "absorbed_dose_rate": 10.398403,
+      "record_id": "94fed78df30b4f9daa513193d4b4f9a6bfff2e414bf42052295680fdc0e00343",
+      "row_position": 49,
+      "seconds_since_previous": 72.0,
+      "timestamp_original": "2022-04-02T00:20:00"
+    },
+    {
+      "absorbed_dose_rate": 10.531359,
+      "record_id": "df37b8659d8541f6bd39509ee0999a6b556738e5590b70a95d6686abe19b7e3e",
+      "row_position": 50,
+      "seconds_since_previous": 28.0,
+      "timestamp_original": "2022-04-02T00:20:28"
+    },
+    {
+      "absorbed_dose_rate": 11.202294,
+      "record_id": "14a7fbde73369d3a203505cd570937f2307dced1ae10feb87a3df0ac9c272730",
+      "row_position": 51,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:22:08"
+    },
+    {
+      "absorbed_dose_rate": 10.780323,
+      "record_id": "74fd8308168e863bd25562ab458a90510f28632e6321e05561f4323d6dbc034e",
+      "row_position": 52,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:23:48"
+    },
+    {
+      "absorbed_dose_rate": 11.121779827476,
+      "record_id": "053f04af83577fd2d02a4b6b7b683816c0ef2e252dc4bb68f299f7945bc61d45",
+      "row_position": 53,
+      "seconds_since_previous": 72.0,
+      "timestamp_original": "2022-04-02T00:25:00"
+    },
+    {
+      "absorbed_dose_rate": 11.680827,
+      "record_id": "75c266230d70229a8e7fd54f7a837cbb873829dd69514acf6c039139815b3060",
+      "row_position": 54,
+      "seconds_since_previous": 28.0,
+      "timestamp_original": "2022-04-02T00:25:28"
+    },
+    {
+      "absorbed_dose_rate": 10.929222,
+      "record_id": "a21a167301fa910ae7e10083ba864754c716857e3d7907baa74dc316d13040c5",
+      "row_position": 55,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:27:08"
+    },
+    {
+      "absorbed_dose_rate": 12.616413,
+      "record_id": "914e1e189be7d0e7fd251acaea8d689fd5d7fa384227853a0d7a0a50c0be9739",
+      "row_position": 56,
+      "seconds_since_previous": 113.0,
+      "timestamp_original": "2022-04-02T00:29:01"
+    },
+    {
+      "absorbed_dose_rate": 11.4865963333333,
+      "record_id": "894f6137d51eeb064f15b857f0c012482849077700c3eee3241a4f6e39181228",
+      "row_position": 57,
+      "seconds_since_previous": 59.0,
+      "timestamp_original": "2022-04-02T00:30:00"
+    },
+    {
+      "absorbed_dose_rate": 10.855738,
+      "record_id": "478770c40ea36260bb3e129a20fc67bed6eb1a5752cf0aecbc0edcaeaea79ec5",
+      "row_position": 58,
+      "seconds_since_previous": 41.0,
+      "timestamp_original": "2022-04-02T00:30:41"
+    },
+    {
+      "absorbed_dose_rate": 10.987638,
+      "record_id": "10f3c81b4a79fb3352f9e231825ee3b3f13abb96a13eef27a9fb6ea01f486960",
+      "row_position": 59,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:32:21"
+    },
+    {
+      "absorbed_dose_rate": 8.883808,
+      "record_id": "ed788b6a52f7f9f7b202a132ba131b5a36fb00e1bebc42332a9757d3499534ab",
+      "row_position": 60,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:34:01"
+    },
+    {
+      "absorbed_dose_rate": 7.04124314696486,
+      "record_id": "c0a91b1f0fb2b793179f5f627a6fd6fe6f080eef407f2e99ef3282cd458254e9",
+      "row_position": 61,
+      "seconds_since_previous": 59.0,
+      "timestamp_original": "2022-04-02T00:35:00"
+    },
+    {
+      "absorbed_dose_rate": 6.44084,
+      "record_id": "6b946b9f4858f630b8a246c36cd96378e57d5d18aa99a7abe3f04038d414d424",
+      "row_position": 62,
+      "seconds_since_previous": 41.0,
+      "timestamp_original": "2022-04-02T00:35:41"
+    },
+    {
+      "absorbed_dose_rate": 5.941985,
+      "record_id": "fa6ba67b4d85cf02defc2e2c48567d8e8e648101f91b08b7b54ac4063be92800",
+      "row_position": 63,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:37:21"
+    },
+    {
+      "absorbed_dose_rate": 4.52014,
+      "record_id": "ca5879ecf2d0769f64bb3867204bd80060f0b99d9032332224a72b6e53c6935c",
+      "row_position": 64,
+      "seconds_since_previous": 113.0,
+      "timestamp_original": "2022-04-02T00:39:14"
+    },
+    {
+      "absorbed_dose_rate": 3.7467835,
+      "record_id": "5d4e871ce0a3b268f416f6ec5e2c0384d7a1f189530a9591585d0a50bfa3bdd1",
+      "row_position": 65,
+      "seconds_since_previous": 46.0,
+      "timestamp_original": "2022-04-02T00:40:00"
+    },
+    {
+      "absorbed_dose_rate": 2.973427,
+      "record_id": "a617e0888ef7c3a3785c42b9e2690400ff890967d432c96ac00d3c90b02e4f9a",
+      "row_position": 66,
+      "seconds_since_previous": 54.0,
+      "timestamp_original": "2022-04-02T00:40:54"
+    },
+    {
+      "absorbed_dose_rate": 2.384861,
+      "record_id": "57334fa575dee1c5ab28a506a64ee4715088fda11b4dcd50900d355e2f214dd0",
+      "row_position": 67,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:42:34"
+    },
+    {
+      "absorbed_dose_rate": 2.578191,
+      "record_id": "486322976a9f16b833059003b820a0d9af2bb61aee3fec16a5ba22aa0d48fc96",
+      "row_position": 68,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:44:14"
+    },
+    {
+      "absorbed_dose_rate": 2.51374766666667,
+      "record_id": "dd2652b43c6c35aa24e830d1150f1ca91f893e64c97a8fdbff05fbdfe7441ba2",
+      "row_position": 69,
+      "seconds_since_previous": 46.0,
+      "timestamp_original": "2022-04-02T00:45:00"
+    },
+    {
+      "absorbed_dose_rate": 1.783237,
+      "record_id": "9658a220768c0e1b432cce149c4f5af0662d07fb3f7e76fd2827c5bd80b653ed",
+      "row_position": 70,
+      "seconds_since_previous": 154.0,
+      "timestamp_original": "2022-04-02T00:47:34"
+    },
+    {
+      "absorbed_dose_rate": 1.806341,
+      "record_id": "07a205b28e8e7f9002b96a6e6321f9018951f240a6e2b2c2c75ba610036abb17",
+      "row_position": 71,
+      "seconds_since_previous": 113.0,
+      "timestamp_original": "2022-04-02T00:49:27"
+    },
+    {
+      "absorbed_dose_rate": 1.87302326198083,
+      "record_id": "aee8becc7502fb853605e536a0cd243e83693c9ddc40a7aafbb756d533899397",
+      "row_position": 72,
+      "seconds_since_previous": 33.0,
+      "timestamp_original": "2022-04-02T00:50:00"
+    },
+    {
+      "absorbed_dose_rate": 2.041164,
+      "record_id": "b4652da5a330f952f67cbee0eebc123dd044193a017753c2a75baad5ace61916",
+      "row_position": 73,
+      "seconds_since_previous": 67.0,
+      "timestamp_original": "2022-04-02T00:51:07"
+    },
+    {
+      "absorbed_dose_rate": 2.416696,
+      "record_id": "fc35dc874369492d11ce986de5b29ff342489d0dcf7d21d921e7d3fca54543cd",
+      "row_position": 74,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:52:47"
+    },
+    {
+      "absorbed_dose_rate": 2.039773,
+      "record_id": "36f392949108967e2188eb43ce3691ce092ee3ad7320e9c138ed86596d460d18",
+      "row_position": 75,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:54:27"
+    },
+    {
+      "absorbed_dose_rate": 2.17095166666667,
+      "record_id": "ef95c93ba635c28cc65fcb1fc03c06992b83b91862de76a241ab3370ee8f67a6",
+      "row_position": 76,
+      "seconds_since_previous": 33.0,
+      "timestamp_original": "2022-04-02T00:55:00"
+    },
+    {
+      "absorbed_dose_rate": 2.056386,
+      "record_id": "e92d3793f1ab965dacf112c699fd3485f9bff111a857e2f1068827f17781632c",
+      "row_position": 77,
+      "seconds_since_previous": 67.0,
+      "timestamp_original": "2022-04-02T00:56:07"
+    },
+    {
+      "absorbed_dose_rate": 2.666897,
+      "record_id": "103a7ae5f603f146d52f67997f59d3e598120d7fed71ea6f93d569512400e113",
+      "row_position": 78,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T00:57:47"
+    },
+    {
+      "absorbed_dose_rate": 3.101695,
+      "record_id": "4d95bff75c6dcb4a1015237afab7c91102912504b867411ee9e2de2a472e9002",
+      "row_position": 79,
+      "seconds_since_previous": 113.0,
+      "timestamp_original": "2022-04-02T00:59:40"
+    },
+    {
+      "absorbed_dose_rate": 3.21272415654952,
+      "record_id": "4a7078e1487a1dba6efe1ff63975fc06992c8de1517766002aefbddf866667af",
+      "row_position": 80,
+      "seconds_since_previous": 20.0,
+      "timestamp_original": "2022-04-02T01:00:00"
+    },
+    {
+      "absorbed_dose_rate": 3.940538,
+      "record_id": "57667f47e1d00d59837bf3f188e76cf7792c60b8dd335e507e597f189cba4466",
+      "row_position": 81,
+      "seconds_since_previous": 80.0,
+      "timestamp_original": "2022-04-02T01:01:20"
+    },
+    {
+      "absorbed_dose_rate": 4.746696,
+      "record_id": "84536559408776e644703992b217a8223d4ffc0ad72b6333559255ced0cb640f",
+      "row_position": 82,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T01:03:00"
+    },
+    {
+      "absorbed_dose_rate": 6.572122,
+      "record_id": "a8bb19ea8cab74868a526368c4956f0b42043018ba1040d431bdfe5a132a2b5d",
+      "row_position": 83,
+      "seconds_since_previous": 100.0,
+      "timestamp_original": "2022-04-02T01:04:40"
+    }
+  ],
+  "release_id": "rel_40afe5ce9bfa07d6bf26fa729478db67",
+  "row_count": 84,
+  "schema_version": "1.0.0",
+  "source_context": "other_mission_educational",
+  "source_file_id": "sha256:9f14938dec95a2088d94786ab296bc596e97c4aebd9ee441d97b6940933def93",
+  "time_basis": "radlab_original_convention_unspecified",
+  "unit": "uGy/h",
+  "unit_note": "microGray per hour as defined by the RadLab documentation; dose equivalent rate (uSv/h) is a different variable",
+  "variable": "absorbed_dose_rate"
+}

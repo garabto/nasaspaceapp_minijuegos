@@ -1,0 +1,370 @@
+{
+  "dataset_version": "1.0.0",
+  "facts": [
+    {
+      "child_explanation": "En Apolo 13 se construyó un adaptador para utilizar cartuchos de otro módulo de la nave. Estos cartuchos permitían retirar dióxido de carbono del aire.",
+      "evidence": [
+        {
+          "locator": {
+            "fragment": "built to use the Command Module lithium hydroxide canisters to purge carbon dioxide from the Lunar Module",
+            "kind": "document_section",
+            "section": "article_body"
+          },
+          "source_file_id": "sha256:8b030fc89a8cc8b30696ae69afce40880a06539baea52db79d6979e43eb6db54",
+          "verified": true
+        },
+        {
+          "locator": {
+            "fragment": "there was a limited amount of lithium hydroxide in the Lunar Module",
+            "kind": "document_section",
+            "section": "article_body"
+          },
+          "source_file_id": "sha256:8b030fc89a8cc8b30696ae69afce40880a06539baea52db79d6979e43eb6db54",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_apollo13_mailbox_co2",
+      "game_adaptation": "El minijuego de adaptación del filtro representa la selección y el acoplamiento de componentes para restablecer una función de retirada de dióxido de carbono. Las piezas disponibles, la secuencia de montaje, la duración y los efectos sobre el estado de soporte vital se definen en las reglas del juego.",
+      "language": "es",
+      "limitations": [
+        "La referencia no proporciona la concentración de dióxido de carbono, la capacidad de los cartuchos ni una tasa de filtración aplicable a la simulación.",
+        "La retirada de dióxido de carbono no se representa como producción de oxígeno.",
+        "Los costes, tiempos y efectos jugables deben registrarse como parámetros de diseño, separados de los hechos históricos."
+      ],
+      "mechanic_ids": [
+        "mech_filter_adaptation"
+      ],
+      "mission_context": "Antecedente histórico de soporte vital de Apolo 13. La referencia describe una solución aplicada en esa misión; no corresponde a una medición de la base marciana del juego.",
+      "record_id": "78711496ae9cb991de4e2308c3b0da4893914f905dc82eb0716ab78acbabbd45",
+      "reference_ids": [
+        "sha256:8b030fc89a8cc8b30696ae69afce40880a06539baea52db79d6979e43eb6db54"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "Durante la misión Apolo 13, la tripulación utilizó un adaptador denominado «mailbox» para emplear cartuchos de hidróxido de litio del módulo de mando en la retirada de dióxido de carbono del módulo lunar. La fuente de NASA señala que la disponibilidad de hidróxido de litio en el módulo lunar era limitada.",
+      "source_context": "other_mission_educational",
+      "title": "Apolo 13: adaptación de cartuchos para retirar dióxido de carbono"
+    },
+    {
+      "child_explanation": "Durante una tormenta de polvo en Marte, los paneles de Opportunity dispusieron de menos energía solar. La última señal del vehículo se recibió el 10 de junio de 2018.",
+      "evidence": [
+        {
+          "locator": {
+            "fragment": "Opportunity went quiet during a historic Mars-wide dust storm in 2018 that reduced the energy available to the rover's solar panels",
+            "kind": "document_section",
+            "section": "article_body"
+          },
+          "source_file_id": "sha256:e0feb179d1e892b251ca3f20fd4f117e3335d1186490d92c45f0eae2f3b491aa",
+          "verified": true
+        },
+        {
+          "locator": {
+            "fragment": "The last signal from the spacecraft was heard on June 10, 2018",
+            "kind": "document_section",
+            "section": "article_body"
+          },
+          "source_file_id": "sha256:e0feb179d1e892b251ca3f20fd4f117e3335d1186490d92c45f0eae2f3b491aa",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_opportunity_dust_energy",
+      "game_adaptation": "El minijuego de paneles utiliza este antecedente para explicar la relación entre condiciones de polvo y disponibilidad de energía solar. El mantenimiento representado, el estado de los paneles y la recuperación de recursos de la base se calculan mediante reglas explícitas del juego.",
+      "language": "es",
+      "limitations": [
+        "La página de misión no constituye una serie numérica de pérdidas de energía preparada para este prototipo.",
+        "La referencia no determina el porcentaje de recuperación energética por una acción de mantenimiento del jugador.",
+        "No debe afirmarse que el mantenimiento simulado reproduce una intervención que restableció la operación de Opportunity.",
+        "La temperatura y la presión REMS seleccionadas no miden por sí mismas la pérdida de generación de los paneles."
+      ],
+      "mechanic_ids": [
+        "mech_solar_panels"
+      ],
+      "mission_context": "Antecedente documental de una misión de superficie marciana. Describe un episodio de Opportunity en 2018, distinto del periodo y del vehículo de las muestras REMS utilizadas en el prototipo.",
+      "record_id": "a38db6a8ee7235e1a65bae99e313d21804396511058d34b3ff418715cd43bad5",
+      "reference_ids": [
+        "sha256:e0feb179d1e892b251ca3f20fd4f117e3335d1186490d92c45f0eae2f3b491aa"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "Opportunity dejó de comunicarse durante la tormenta de polvo de alcance global de 2018 en Marte. La página de misión de NASA indica que la tormenta redujo la energía disponible para los paneles solares y que la última señal del vehículo se recibió el 10 de junio de 2018.",
+      "source_context": "mars_historical_reference",
+      "title": "Opportunity: reducción de energía solar durante una tormenta de polvo"
+    },
+    {
+      "child_explanation": "En la Estación Espacial Internacional se cultivaron zinnias mediante el sistema Veggie. Una fotografía compartida en enero de 2016 mostró una planta en floración.",
+      "evidence": [
+        {
+          "locator": {
+            "fragment": "On Jan. 16, 2016, Expedition 46 Commander Scott Kelly shared photographs of a blooming zinnia flower in the Veggie plant growth system aboard the International Space Station",
+            "kind": "document_section",
+            "section": "article_body"
+          },
+          "source_file_id": "sha256:e88cd057d789387353b84c8652fcbe1d522c7ad8eadc8415352cfbd8be810558",
+          "verified": true
+        },
+        {
+          "locator": {
+            "fragment": "began on Nov. 16, 2015, when NASA astronaut Kjell Lindgren activated the Veggie system",
+            "kind": "document_section",
+            "section": "article_body"
+          },
+          "source_file_id": "sha256:e88cd057d789387353b84c8652fcbe1d522c7ad8eadc8415352cfbd8be810558",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_zinnias_veggie_iss",
+      "game_adaptation": "La ficha acompaña el minijuego de riego como ejemplo documentado de cultivo vegetal en otra misión. El jugador administra recursos de un cultivo simulado; la cantidad de agua, el tiempo transcurrido y el crecimiento representado pertenecen a la configuración del juego.",
+      "language": "es",
+      "limitations": [
+        "La nota no aporta una serie de riego, humedad o crecimiento para calcular la respuesta de las plantas del juego.",
+        "La floración de zinnias descrita no debe identificarse como el experimento de lechuga OSD-268.",
+        "La nota tampoco sustituye los resultados del estudio genómico de Fusarium asociado a zinnias identificado como OSD-177.",
+        "No se utiliza este antecedente para atribuir rendimientos alimentarios a la zinnia."
+      ],
+      "mechanic_ids": [
+        "mech_irrigation"
+      ],
+      "mission_context": "Antecedente de cultivo vegetal en la ISS entre 2015 y 2016. La fuente es una nota documental con imagen; no describe un cultivo realizado en la superficie de Marte.",
+      "record_id": "28dfde08a0ae84d070e71ce861078e9b77962361ae4781ef033f33617bf7b4ad",
+      "reference_ids": [
+        "sha256:e88cd057d789387353b84c8652fcbe1d522c7ad8eadc8415352cfbd8be810558"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "El 16 de enero de 2016, Scott Kelly compartió fotografías de una zinnia en floración en el sistema Veggie de la Estación Espacial Internacional. La nota de NASA indica que el experimento comenzó el 16 de noviembre de 2015, cuando Kjell Lindgren activó el sistema con semillas de zinnia.",
+      "source_context": "other_mission_educational",
+      "title": "Cultivo y floración de zinnias en el sistema Veggie de la ISS"
+    },
+    {
+      "child_explanation": "El estudio OSD-268 describe lechugas cultivadas en la Estación Espacial Internacional. Después de la cosecha, se realizaron análisis químicos, microbiológicos y moleculares.",
+      "evidence": [
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/title"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/description"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/publications/0/doi"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/comments/4/value"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/comments/5/value"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/comments/11/value"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/comments/12/value"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/study/OSD-268/studies/0/comments/9/value"
+          },
+          "source_file_id": "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_osd268_lettuce_veg01b",
+      "game_adaptation": "El estudio aporta un antecedente al minijuego de riego y administración de un cultivo destinado a la producción de alimentos. En esta versión, la mecánica representa decisiones sobre recursos limitados; la cantidad de agua, el crecimiento, la cosecha y las recompensas se definen como parámetros de simulación.",
+      "language": "es",
+      "limitations": [
+        "La versión del prototipo utiliza metadatos y referencias del estudio; no incorpora una tabla experimental de coeficientes de riego, crecimiento o rendimiento.",
+        "No se atribuyen al estudio cantidades de agua, tiempos de cosecha ni producción que no hayan sido extraídos de resultados específicos.",
+        "El inventario de archivos del repositorio no equivale a una serie de observaciones de cultivo ya procesada.",
+        "La temperatura exterior de REMS no se utiliza como temperatura medida del invernadero simulado."
+      ],
+      "mechanic_ids": [
+        "mech_irrigation"
+      ],
+      "mission_context": "Estudio de cultivo vegetal en la ISS identificado como VEG-01B. Las fechas de transporte de misión contenidas en los metadatos no se utilizan como fechas de inicio y fin del cultivo.",
+      "record_id": "b235854be1917726d46dce7a1fe2b34e8d6641a383294de43213e072f0acb194",
+      "reference_ids": [
+        "sha256:7cfd3ba936b272404a86178fb6de56bb923606f6deb4570b69c8ae63403b8c95"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "Los metadatos de OSD-268 identifican el estudio «Microbiological and nutritional analysis of lettuce crops grown on the International Space Station-VEG01B». Describen lechugas cultivadas en Veggie a bordo de la ISS, cosechadas y devueltas para análisis químicos, microbiológicos y moleculares. La publicación asociada se identifica mediante el DOI 10.3389/fpls.2020.00199.",
+      "source_context": "other_mission_educational",
+      "title": "OSD-268: estudio microbiológico y nutricional de lechuga cultivada en la ISS"
+    },
+    {
+      "child_explanation": "Un instrumento de la Estación Espacial Internacional registró tasas de dosis absorbida. La ficha permite comparar sus valores y reconocer que corresponden a la ISS, no a Marte.",
+      "evidence": [
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/data/0/3"
+          },
+          "source_file_id": "sha256:9f14938dec95a2088d94786ab296bc596e97c4aebd9ee441d97b6940933def93",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/data/0/1"
+          },
+          "source_file_id": "sha256:9f14938dec95a2088d94786ab296bc596e97c4aebd9ee441d97b6940933def93",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_radlab_iss_dostel1_annex",
+      "game_adaptation": "El anexo se consulta desde la explicación de radiación y blindaje para comparar tasas registradas en otra misión. Los valores no alimentan el estado de radiación de la base marciana. Los niveles de blindaje y sus efectos se gestionan mediante reglas separadas de la simulación.",
+      "language": "es",
+      "limitations": [
+        "La muestra no representa mediciones de radiación en la superficie de Marte.",
+        "La tasa de dosis absorbida en µGy/h no debe intercambiarse con la tasa de dosis equivalente en µSv/h.",
+        "Los intervalos entre registros no son uniformes; esta versión no calcula dosis acumulada ni integra a través de huecos.",
+        "No se asignan categorías médicas, porcentajes de protección o niveles de daño al personaje a partir de esta muestra."
+      ],
+      "mechanic_ids": [
+        "mech_radiation_shielding_explainer"
+      ],
+      "mission_context": "Muestra instrumental de la ISS, identificada como DosTel1, cuyo intervalo original cruza del 1 al 2 de abril de 2022. Se conservan las marcas temporales recibidas sin asignarles una zona horaria no confirmada.",
+      "record_id": "e3a76ac1dd9c0d0712ffaa74d5f6408130bed60f6d070a9ccfee0a9f73ef299a",
+      "reference_ids": [
+        "sha256:9f14938dec95a2088d94786ab296bc596e97c4aebd9ee441d97b6940933def93"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "La muestra procesada de RadLab contiene 84 registros de tasa de dosis absorbida del instrumento DosTel1, identificados con la plataforma ISS. La variable absorbed_dose_rate se expresa en microgray por hora (µGy/h). Las marcas temporales originales abarcan desde 2022-04-01T23:00:00 hasta 2022-04-02T01:04:40.",
+      "source_context": "other_mission_educational",
+      "title": "RadLab: tasas de dosis absorbida registradas por DosTel1 en la ISS"
+    },
+    {
+      "child_explanation": "DONKI permite consultar eventos solares con una fecha, una clase y un identificador. En el juego, esos registros se presentan como antecedentes reales de una práctica de alerta solar.",
+      "evidence": [
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/0/flrID"
+          },
+          "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40",
+          "verified": true
+        },
+        {
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/0/classType"
+          },
+          "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_donki_flr_catalogue",
+      "game_adaptation": "El catálogo proporciona referencias para una práctica ficticia de alerta solar en la que el jugador decide entre mantener una actividad exterior simulada o preparar un refugio. El día de aparición, los costes y las consecuencias se establecen en la configuración del escenario. La fecha y la clase del evento de origen permanecen identificadas como datos históricos.",
+      "language": "es",
+      "limitations": [
+        "La clase del evento se utiliza como información documental y no como conversión automática a daño, dosis o blindaje.",
+        "La versión no calcula propagación, llegada a Marte ni necesidad física de refugio a partir de cada evento.",
+        "Los vínculos entre llamaradas y eyecciones de masa coronal no se deducen por proximidad temporal.",
+        "Los análisis CME se conservan en respaldo y sus velocidades no forman parte de las variables activas de esta versión."
+      ],
+      "mechanic_ids": [
+        "mech_solar_alert_shelter"
+      ],
+      "mission_context": "Catálogo histórico de eventos solares. Sus registros no constituyen mediciones de dosis o de condiciones ambientales en la superficie de la base marciana.",
+      "record_id": "06451fb400cea5aa382f7c85ff6407ed9d93aa1b708321c555f2284554b929dd",
+      "reference_ids": [
+        "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "La respuesta DONKI FLR seleccionada para el periodo del 8 al 14 de mayo de 2024 contiene 93 eventos de llamaradas solares, identificados mediante flrID y acompañados de su clase y tiempos. El primer registro del catálogo es 2024-05-08T01:33:00-FLR-001, de clase X1.0.",
+      "source_context": "solar_event_catalogue",
+      "title": "DONKI: catálogo histórico de llamaradas solares del 8 al 14 de mayo de 2024"
+    },
+    {
+      "child_explanation": "Los registros de Curiosity permiten consultar temperatura y presión exterior de diez días marcianos. Las horas sin muestras se muestran sin asignarles un valor inventado.",
+      "evidence": [
+        {
+          "locator": {
+            "key": "DATA_SET_ID",
+            "kind": "label_field"
+          },
+          "source_file_id": "sha256:3e05f99b1014f26c84babe61ce61df9f105cb81c37551f242d255ff333398b8d",
+          "verified": true
+        },
+        {
+          "locator": {
+            "key": "INSTRUMENT_HOST_NAME",
+            "kind": "label_field"
+          },
+          "source_file_id": "sha256:3e05f99b1014f26c84babe61ce61df9f105cb81c37551f242d255ff333398b8d",
+          "verified": true
+        }
+      ],
+      "fact_key": "fact_rems_curiosity_environment",
+      "game_adaptation": "El panel de misión presenta los perfiles exteriores históricos mediante la correspondencia mission_day = source_sol − 9: el sol de origen 10 se muestra como día ficticio 1 y el 19 como día ficticio 10. Las decisiones de distribución de energía y sellado utilizan ese contexto; los consumos, las reservas, la presión interior y las fallas del hábitat se modelan de forma independiente.",
+      "language": "es",
+      "limitations": [
+        "La política de selección por indicadores de calidad pertenece al proyecto y no se presenta como un requisito único de NASA.",
+        "Los agregados representan estadísticas de las muestras disponibles; no se afirma cobertura continua de cada hora o del día completo.",
+        "Las horas sin muestras seleccionadas conservan valores nulos y contadores explícitos.",
+        "La presión exterior no detecta por sí sola una fuga del hábitat, y la temperatura exterior no determina por sí sola su consumo energético.",
+        "El campo temporal original se conserva sin una conversión UTC no justificada."
+      ],
+      "mechanic_ids": [
+        "mech_env_energy",
+        "mech_leak_sealing"
+      ],
+      "mission_context": "Observaciones históricas de Curiosity en 2012, limitadas al lugar y periodo de los productos seleccionados. El perfil no describe todas las regiones de Marte ni constituye un pronóstico para la base ficticia de 2050.",
+      "record_id": "efdc74ffb5b8c10da46df364e391438f6ffaf2053f6ca933ccbac6b3ba244c3f",
+      "reference_ids": [
+        "sha256:3e05f99b1014f26c84babe61ce61df9f105cb81c37551f242d255ff333398b8d"
+      ],
+      "review_status": "pending_human_review",
+      "scientific_statement": "El conjunto utiliza productos procesados MODRDR del instrumento REMS de Curiosity, correspondientes a los soles 10 a 19 de la misión. Para el prototipo se seleccionaron observaciones de temperatura ambiente en kelvin (K) y presión en pascales (Pa), y se calcularon estadísticas por hora de tiempo solar medio local marciano (LMST).",
+      "source_context": "mars_historical_observation",
+      "title": "REMS de Curiosity: perfil histórico de temperatura y presión exterior"
+    }
+  ],
+  "mechanics": {
+    "mech_env_energy": "Observar el ambiente y repartir energía (identificador propuesto)",
+    "mech_filter_adaptation": "Adaptación del filtro (identificador propuesto)",
+    "mech_irrigation": "Riego (identificador propuesto)",
+    "mech_leak_sealing": "Fuga o sellado (identificador propuesto)",
+    "mech_radiation_shielding_explainer": "Explicación de radiación/blindaje (identificador propuesto)",
+    "mech_solar_alert_shelter": "Alerta solar y refugio (identificador propuesto)",
+    "mech_solar_panels": "Paneles solares (identificador propuesto)"
+  },
+  "radlab_annex": {
+    "fact_key": "fact_radlab_iss_dostel1_annex",
+    "path": "educational/radlab_iss_training_2022-04-01T23-00-00_to_2022-04-02T01-04-40.json"
+  },
+  "release_id": "rel_40afe5ce9bfa07d6bf26fa729478db67",
+  "review_note": "Redacción técnica preparada con asistencia de IA a partir de las fuentes conservadas, para su integración en el sistema. Se mantienen identificadores, contexto, mecánicas y evidencias originales. La validación estructural no sustituye la revisión editorial humana. La carga administrativa a BD puede mantener pending_human_review; la publicación se gestiona por separado.",
+  "schema_version": "1.0.0"
+}

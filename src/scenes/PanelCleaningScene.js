@@ -164,7 +164,7 @@ export class PanelCleaningScene extends Phaser.Scene {
     this.gameFinished = true;
     const success = this.cleaned >= this.goalDust;
 
-    GameState.minijuegosHoy.paneles = true;
+    GameState.minijuegosHoy.paneles = success ? "ganado" : "fallido";;
     let textoResultado = "";
 
     if (success) {

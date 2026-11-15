@@ -1,0 +1,3129 @@
+{
+  "count": 93,
+  "dataset_version": "1.0.0",
+  "events": [
+    {
+      "active_region": 13663,
+      "begin_time": "2024-05-08T01:33:00Z",
+      "begin_time_original": "2024-05-08T01:33Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.0",
+      "end_time": "2024-05-08T01:48:00Z",
+      "end_time_original": "2024-05-08T01:48Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T01:33:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T01:41:00Z",
+      "peak_time_original": "2024-05-08T01:41Z",
+      "record_id": "e190baaea0d3fec7d4fd460b1f7518c6e9751f1079c197426befebfda342a501",
+      "source_location": "N25W60",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/0"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30548/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T02:16:00Z",
+      "begin_time_original": "2024-05-08T02:16Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.4",
+      "end_time": "2024-05-08T02:36:00Z",
+      "end_time_original": "2024-05-08T02:36Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T02:16:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T02:27:00Z",
+      "peak_time_original": "2024-05-08T02:27Z",
+      "record_id": "486d9f4d53f5a3e6c5020601f3cba95e44b3bea950a2a76531e1397261b3b29e",
+      "source_location": "S20W10",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/1"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30566/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T03:19:00Z",
+      "begin_time_original": "2024-05-08T03:19Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.8",
+      "end_time": "2024-05-08T03:38:00Z",
+      "end_time_original": "2024-05-08T03:38Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T03:19:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T03:27:00Z",
+      "peak_time_original": "2024-05-08T03:27Z",
+      "record_id": "cad408776fa5c998261a86bcb81784418ec4f79a94aa97de9128939237b396c4",
+      "source_location": "S20W10",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/2"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30567/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T03:38:00Z",
+      "begin_time_original": "2024-05-08T03:38Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.9",
+      "end_time": "2024-05-08T03:46:00Z",
+      "end_time_original": "2024-05-08T03:46Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T03:38:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T03:42:00Z",
+      "peak_time_original": "2024-05-08T03:42Z",
+      "record_id": "c83d7fb22e7b3dfab33e9ffb1e7f7f44c91dfea22cbf4c6557c92c028f4ac9f6",
+      "source_location": "S20W10",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/3"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30569/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T04:20:00Z",
+      "begin_time_original": "2024-05-08T04:20Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.5",
+      "end_time": "2024-05-08T04:37:00Z",
+      "end_time_original": "2024-05-08T04:37Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T04:20:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-08T05:36:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-08T04:30:00Z",
+      "peak_time_original": "2024-05-08T04:30Z",
+      "record_id": "e400a804170aff5d890bdc0bd8fe46b8583e7f99427173b3d2424b1caa005327",
+      "source_location": "S21W10",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/4"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30557/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T04:37:00Z",
+      "begin_time_original": "2024-05-08T04:37Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.0",
+      "end_time": "2024-05-08T05:32:00Z",
+      "end_time_original": "2024-05-08T05:32Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T04:37:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-08T05:36:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-08T05:09:00Z",
+      "peak_time_original": "2024-05-08T05:09Z",
+      "record_id": "0409d53c062e1bb7c13b93654e23132650ab60bed20f9059ebb6d74f09295d19",
+      "source_location": "S22W10",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/5"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30551/-1",
+      "source_version": 4,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T06:44:00Z",
+      "begin_time_original": "2024-05-08T06:44Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M7.1",
+      "end_time": "2024-05-08T07:03:00Z",
+      "end_time_original": "2024-05-08T07:03Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T06:44:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T06:53:00Z",
+      "peak_time_original": "2024-05-08T06:53Z",
+      "record_id": "59bfa2845a3219ee26d14c1ff90eceeb93ecc179d6b4b80bc08c91998d0c0a48",
+      "source_location": "S21W18",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/6"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30553/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13663,
+      "begin_time": "2024-05-08T07:29:00Z",
+      "begin_time_original": "2024-05-08T07:29Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.5",
+      "end_time": "2024-05-08T07:53:00Z",
+      "end_time_original": "2024-05-08T07:53Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T07:29:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T07:41:00Z",
+      "peak_time_original": "2024-05-08T07:41Z",
+      "record_id": "6cc310110efb38c409a3806fcbcc7be519e36f07a2e2e3d1d332a02d4d0fcd68",
+      "source_location": "N25W61",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/7"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30570/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T09:31:00Z",
+      "begin_time_original": "2024-05-08T09:31Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.8",
+      "end_time": "2024-05-08T09:42:00Z",
+      "end_time_original": "2024-05-08T09:42Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T09:31:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T09:37:00Z",
+      "peak_time_original": "2024-05-08T09:37Z",
+      "record_id": "81a1ed5b26192c9c6c0e6d011770439c677d68fe4e1965ef4ff08866fc986d95",
+      "source_location": "S21W14",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/8"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30572/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13663,
+      "begin_time": "2024-05-08T09:43:00Z",
+      "begin_time_original": "2024-05-08T09:43Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.1",
+      "end_time": "2024-05-08T09:56:00Z",
+      "end_time_original": "2024-05-08T09:56Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T09:43:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T09:48:00Z",
+      "peak_time_original": "2024-05-08T09:48Z",
+      "record_id": "3b4eea2e5cae3d71ecc97e1901a493ef15c085f5bb723dae377817da23a156cc",
+      "source_location": "N25W62",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/9"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30577/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13663,
+      "begin_time": "2024-05-08T11:09:00Z",
+      "begin_time_original": "2024-05-08T11:09Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.1",
+      "end_time": "2024-05-08T11:26:00Z",
+      "end_time_original": "2024-05-08T11:26Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T11:09:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T11:22:00Z",
+      "peak_time_original": "2024-05-08T11:22Z",
+      "record_id": "c1b9c40cf1374333ccb2a35b4aabe59376d35ed4bfaab643d4f5cc641549b389",
+      "source_location": "N26W65",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/10"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30559/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T11:26:00Z",
+      "begin_time_original": "2024-05-08T11:26Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M8.6",
+      "end_time": "2024-05-08T12:17:00Z",
+      "end_time_original": "2024-05-08T12:17Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T11:26:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-08T12:24:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-08T12:04:00Z",
+      "peak_time_original": "2024-05-08T12:04Z",
+      "record_id": "ec09ef52650eccd0daa9de36d8e0ceb705f2f7f5be5840e1d59ccd4f7347d547",
+      "source_location": "S20W11",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/11"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30555/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T17:32:00Z",
+      "begin_time_original": "2024-05-08T17:32Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M7.9",
+      "end_time": "2024-05-08T18:00:00Z",
+      "end_time_original": "2024-05-08T18:00Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T17:32:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T17:53:00Z",
+      "peak_time_original": "2024-05-08T17:53Z",
+      "record_id": "ea7d6cf41c84fcf69caecaa60dad9f430f23ed837273064e02a5a0c26ec169e2",
+      "source_location": "S17W13",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/12"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30586/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13663,
+      "begin_time": "2024-05-08T18:14:00Z",
+      "begin_time_original": "2024-05-08T18:14Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.9",
+      "end_time": "2024-05-08T18:51:00Z",
+      "end_time_original": "2024-05-08T18:51Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T18:14:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T18:36:00Z",
+      "peak_time_original": "2024-05-08T18:36Z",
+      "record_id": "6622f9b64d07d4d2bcac3b28e4f4748d295e2d99501e01b45b649ddf355d9eec",
+      "source_location": "N25W67",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/13"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30594/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T19:15:00Z",
+      "begin_time_original": "2024-05-08T19:15Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.0",
+      "end_time": "2024-05-08T19:29:00Z",
+      "end_time_original": "2024-05-08T19:29Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T19:15:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T19:21:00Z",
+      "peak_time_original": "2024-05-08T19:21Z",
+      "record_id": "05c02eca035ffc91cf8a620954593f929ad1452cb8214565411d7ca6e630aefc",
+      "source_location": "S20W19",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/14"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30596/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T20:27:00Z",
+      "begin_time_original": "2024-05-08T20:27Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.7",
+      "end_time": "2024-05-08T20:39:00Z",
+      "end_time_original": "2024-05-08T20:39Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T20:27:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-08T20:34:00Z",
+      "peak_time_original": "2024-05-08T20:34Z",
+      "record_id": "d9bb67d40c3d26eff3e909e15ca10e6f30d7e5c5d1fef18c26719d2cd406aaa6",
+      "source_location": "S20W19",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/15"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30599/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T21:08:00Z",
+      "begin_time_original": "2024-05-08T21:08Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.0",
+      "end_time": "2024-05-08T23:10:00Z",
+      "end_time_original": "2024-05-08T23:10Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T21:08:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-08T22:24:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-08T21:40:00Z",
+      "peak_time_original": "2024-05-08T21:40Z",
+      "record_id": "1f8a034b6e00d45726088e14fdfb3f1919d2b820382912e268b958c1c4e4aadd",
+      "source_location": "S20W17",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/16"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30601/-1",
+      "source_version": 9,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-08T22:05:00Z",
+      "begin_time_original": "2024-05-08T22:05Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M9.8",
+      "end_time": "2024-05-08T23:12:00Z",
+      "end_time_original": "2024-05-08T23:12Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-08T22:05:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-08T22:24:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-08T22:27:00Z",
+      "peak_time_original": "2024-05-08T22:27Z",
+      "record_id": "f780aca893b246fa66d9f121928b7e024533030c3e5f433b813240abd2b40515",
+      "source_location": "S22W22",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/17"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30603/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T00:58:00Z",
+      "begin_time_original": "2024-05-09T00:58Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.8",
+      "end_time": "2024-05-09T01:57:00Z",
+      "end_time_original": "2024-05-09T01:57Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T00:58:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T01:15:00Z",
+      "peak_time_original": "2024-05-09T01:15Z",
+      "record_id": "4f42fe29a0a8c76f5cfe8f7b0c149ef32b8fa661ed2fd00f3918226312b36547",
+      "source_location": "S20W19",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/18"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30614/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T03:07:00Z",
+      "begin_time_original": "2024-05-09T03:07Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.0",
+      "end_time": "2024-05-09T03:23:00Z",
+      "end_time_original": "2024-05-09T03:23Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T03:07:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T03:17:00Z",
+      "peak_time_original": "2024-05-09T03:17Z",
+      "record_id": "14c7f23873a134becea7bfb662a2c10c5726d3d20572a51607b3c976fb4b155b",
+      "source_location": "S22W23",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/19"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30615/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T03:23:00Z",
+      "begin_time_original": "2024-05-09T03:23Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.5",
+      "end_time": "2024-05-09T03:45:00Z",
+      "end_time_original": "2024-05-09T03:45Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T03:23:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T03:32:00Z",
+      "peak_time_original": "2024-05-09T03:32Z",
+      "record_id": "e0921ddf201dacca216fca5a5e9cedbe9a2f15738c9868643b3b1c5a0e90401b",
+      "source_location": "S22W23",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/20"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30616/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T04:44:00Z",
+      "begin_time_original": "2024-05-09T04:44Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.7",
+      "end_time": "2024-05-09T04:55:00Z",
+      "end_time_original": "2024-05-09T04:55Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T04:44:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T04:49:00Z",
+      "peak_time_original": "2024-05-09T04:49Z",
+      "record_id": "6d9d1d0adfa696eac31e9ce0dbfc98ee4f4976ee4867911b86d2faa5f290590b",
+      "source_location": "S21W27",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/21"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30618/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T05:35:00Z",
+      "begin_time_original": "2024-05-09T05:35Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-09T05:42:00Z",
+      "end_time_original": "2024-05-09T05:42Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T05:35:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T05:38:00Z",
+      "peak_time_original": "2024-05-09T05:38Z",
+      "record_id": "0eac6b4883c7a713dbe988de61e7a48eec27f5bcd11cf0111108439809f9b5e1",
+      "source_location": "S20W21",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/22"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30621/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T06:03:00Z",
+      "begin_time_original": "2024-05-09T06:03Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.3",
+      "end_time": "2024-05-09T06:24:00Z",
+      "end_time_original": "2024-05-09T06:24Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T06:03:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T06:13:00Z",
+      "peak_time_original": "2024-05-09T06:13Z",
+      "record_id": "c714b3ded7f2d87a15fc0069f86bb964ca104a5189495f302784a1c2244993ef",
+      "source_location": "S22W30",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/23"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30623/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T06:24:00Z",
+      "begin_time_original": "2024-05-09T06:24Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.4",
+      "end_time": "2024-05-09T06:31:00Z",
+      "end_time_original": "2024-05-09T06:31Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T06:24:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T06:27:00Z",
+      "peak_time_original": "2024-05-09T06:27Z",
+      "record_id": "82ab8d3ee6e1e91030f90ccb1e4ab89d87d41ce889a206cfa0648af7d50f1420",
+      "source_location": "S21W25",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/24"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30625/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T07:54:00Z",
+      "begin_time_original": "2024-05-09T07:54Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-09T08:06:00Z",
+      "end_time_original": "2024-05-09T08:06Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T07:54:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T07:59:00Z",
+      "peak_time_original": "2024-05-09T07:59Z",
+      "record_id": "6aac9db51d2e406af15308df0320ec17154b82f689ef19df7e32b5490c8d9607",
+      "source_location": "S21W28",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/25"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30627/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T08:30:00Z",
+      "begin_time_original": "2024-05-09T08:30Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.1",
+      "end_time": "2024-05-09T08:45:00Z",
+      "end_time_original": "2024-05-09T08:45Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T08:30:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T08:40:00Z",
+      "peak_time_original": "2024-05-09T08:40Z",
+      "record_id": "b65fb07d3747ef90dae5c744fa681f1f0e84148d3276c4c49605c083e3a621e2",
+      "source_location": "S21W25",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/26"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30629/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T08:45:00Z",
+      "begin_time_original": "2024-05-09T08:45Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X2.2",
+      "end_time": "2024-05-09T09:36:00Z",
+      "end_time_original": "2024-05-09T09:36Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T08:45:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-09T09:24:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-09T13:59:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-09T14:25:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T12:59:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T13:02:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-09T09:13:00Z",
+      "peak_time_original": "2024-05-09T09:13Z",
+      "record_id": "f6645b767ca026597ff45fc548296ce683c49354027a84a02bbf3b9bafefbe55",
+      "source_location": "S20W25",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/27"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30605/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T11:52:00Z",
+      "begin_time_original": "2024-05-09T11:52Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.1",
+      "end_time": "2024-05-09T12:02:00Z",
+      "end_time_original": "2024-05-09T12:02Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T11:52:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T11:56:00Z",
+      "peak_time_original": "2024-05-09T11:56Z",
+      "record_id": "6fb24fc8847087ca5c1b57bcae66d4b4b15f51d1384e25a222423e05714b7fa4",
+      "source_location": "S16W40",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/28"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30630/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T12:05:00Z",
+      "begin_time_original": "2024-05-09T12:05Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.9",
+      "end_time": "2024-05-09T12:20:00Z",
+      "end_time_original": "2024-05-09T12:20Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T12:05:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T12:12:00Z",
+      "peak_time_original": "2024-05-09T12:12Z",
+      "record_id": "e548872f518eaf9b7122849e687af975015893c9e334a53a99e7a231a2ae41bd",
+      "source_location": "S18W33",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/29"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30631/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T13:16:00Z",
+      "begin_time_original": "2024-05-09T13:16Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.7",
+      "end_time": "2024-05-09T13:29:00Z",
+      "end_time_original": "2024-05-09T13:29Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T13:16:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T13:23:00Z",
+      "peak_time_original": "2024-05-09T13:23Z",
+      "record_id": "43049d224820e703c9f4fd2e322e73b2774df563b6e04666a87fad0574c69cbb",
+      "source_location": "S18W32",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/30"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30632/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T14:01:00Z",
+      "begin_time_original": "2024-05-09T14:01Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-09T14:09:00Z",
+      "end_time_original": "2024-05-09T14:09Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T14:01:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T14:05:00Z",
+      "peak_time_original": "2024-05-09T14:05Z",
+      "record_id": "cb8ad16cbf33919c9731497e5efb705f77859b47e82192476290836efb163c3b",
+      "source_location": "S20W34",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/31"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30637/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T17:23:00Z",
+      "begin_time_original": "2024-05-09T17:23Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.1",
+      "end_time": "2024-05-09T18:00:00Z",
+      "end_time_original": "2024-05-09T18:00Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T17:23:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-09T18:23:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T12:59:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T13:02:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-09T17:44:00Z",
+      "peak_time_original": "2024-05-09T17:44Z",
+      "record_id": "72026df7652dfd10ce339f52fdbd608ffdea4c236f21783c3f4cfa810b6759b8",
+      "source_location": "S18W29",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/32"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30634/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13663,
+      "begin_time": "2024-05-09T21:15:00Z",
+      "begin_time_original": "2024-05-09T21:15Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-09T21:25:00Z",
+      "end_time_original": "2024-05-09T21:25Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T21:15:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T21:21:00Z",
+      "peak_time_original": "2024-05-09T21:21Z",
+      "record_id": "940ea90c134301f4d3964e4c51db712d6881b6d5ed1b026c9ad30e4b095d6178",
+      "source_location": "N26W82",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/33"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30654/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T22:08:00Z",
+      "begin_time_original": "2024-05-09T22:08Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-09T22:24:00Z",
+      "end_time_original": "2024-05-09T22:24Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T22:08:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T22:15:00Z",
+      "peak_time_original": "2024-05-09T22:15Z",
+      "record_id": "03991f81946fe64d5821b067b55d20e099c07c4b96331a15844d670212fba6df",
+      "source_location": "S17W30",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/34"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30658/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T22:24:00Z",
+      "begin_time_original": "2024-05-09T22:24Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.6",
+      "end_time": "2024-05-09T22:47:00Z",
+      "end_time_original": "2024-05-09T22:47Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T22:24:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T22:41:00Z",
+      "peak_time_original": "2024-05-09T22:41Z",
+      "record_id": "72038d39bee716c767d1227240ca69fcee36099ff1cf5c307d640c1c92dea381",
+      "source_location": "S16W46",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/35"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30661/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": null,
+      "begin_time": "2024-05-09T23:04:00Z",
+      "begin_time_original": "2024-05-09T23:04Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-09T23:13:00Z",
+      "end_time_original": "2024-05-09T23:13Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T23:04:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T23:08:00Z",
+      "peak_time_original": "2024-05-09T23:08Z",
+      "record_id": "78fedb05c9aaf47f29d602fe0ea3c2ae9d4fabb8c2cacf9c50badd31fb577b68",
+      "source_location": "S11E89",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/36"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30663/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-09T23:44:00Z",
+      "begin_time_original": "2024-05-09T23:44Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.5",
+      "end_time": "2024-05-09T23:55:00Z",
+      "end_time_original": "2024-05-09T23:55Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-09T23:44:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-09T23:51:00Z",
+      "peak_time_original": "2024-05-09T23:51Z",
+      "record_id": "32529b4e568316316cac60b164930d700867ffea718af2dadfaa8103b6d83ddc",
+      "source_location": "S24W37",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/37"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30664/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T00:10:00Z",
+      "begin_time_original": "2024-05-10T00:10Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.3",
+      "end_time": "2024-05-10T00:22:00Z",
+      "end_time_original": "2024-05-10T00:22Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T00:10:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T00:13:00Z",
+      "peak_time_original": "2024-05-10T00:13Z",
+      "record_id": "21e96a5a61634a94cb184b2546ae2613d51dd371d8512c144b16cb07a2b8a13a",
+      "source_location": "S22W35",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/38"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30665/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": null,
+      "begin_time": "2024-05-10T03:15:00Z",
+      "begin_time_original": "2024-05-10T03:15Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.4",
+      "end_time": "2024-05-10T03:40:00Z",
+      "end_time_original": "2024-05-10T03:40Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T03:15:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T03:29:00Z",
+      "peak_time_original": "2024-05-10T03:29Z",
+      "record_id": "56543316ad68d7d9d1f527182a83c976fa6ba1be39678637f108dc545cd89350",
+      "source_location": "S14E90",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/39"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30735/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T06:14:00Z",
+      "begin_time_original": "2024-05-10T06:14Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.3",
+      "end_time": "2024-05-10T06:27:00Z",
+      "end_time_original": "2024-05-10T06:27Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T06:14:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T06:24:00Z",
+      "peak_time_original": "2024-05-10T06:24Z",
+      "record_id": "b3c2ff5a9eb6c79fa6d2e1050e19d8c431a61c264b7c596486165360ab56100b",
+      "source_location": "S19W35",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/40"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30736/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T06:27:00Z",
+      "begin_time_original": "2024-05-10T06:27Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X3.9",
+      "end_time": "2024-05-10T07:06:00Z",
+      "end_time_original": "2024-05-10T07:06Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T06:27:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-10T07:12:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-10T12:59:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T13:02:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T13:35:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-10T06:54:00Z",
+      "peak_time_original": "2024-05-10T06:54Z",
+      "record_id": "f38e9b79450a60844298060b2a50fb908309d87d7a5d0b9bd2317a831f6c0742",
+      "source_location": "S18W37",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/41"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30666/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T10:10:00Z",
+      "begin_time_original": "2024-05-10T10:10Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.2",
+      "end_time": "2024-05-10T10:19:00Z",
+      "end_time_original": "2024-05-10T10:19Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T10:10:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T10:14:00Z",
+      "peak_time_original": "2024-05-10T10:14Z",
+      "record_id": "117c6ce858e7d62496bdeac7f9d1119375976ddaa972fa902ec0ca363548543e",
+      "source_location": "S21W43",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/42"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30737/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T13:58:00Z",
+      "begin_time_original": "2024-05-10T13:58Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M5.9",
+      "end_time": "2024-05-10T14:23:00Z",
+      "end_time_original": "2024-05-10T14:23Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T13:58:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-10T14:50:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-10T14:11:00Z",
+      "peak_time_original": "2024-05-10T14:11Z",
+      "record_id": "8b03e8128df54e22053e748cd159ed7e96f3d8d2a432d892b5028ac9483dc475",
+      "source_location": "S16W40",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/43"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30680/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T17:14:00Z",
+      "begin_time_original": "2024-05-10T17:14Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-10T17:54:00Z",
+      "end_time_original": "2024-05-10T17:54Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T17:14:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T17:40:00Z",
+      "peak_time_original": "2024-05-10T17:40Z",
+      "record_id": "85f06a4a9421b79fbf5655cd6689237e22a61dcf2693ab76af3f528be6e1b218",
+      "source_location": "S17W42",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/44"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30767/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T17:54:00Z",
+      "begin_time_original": "2024-05-10T17:54Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-10T18:01:00Z",
+      "end_time_original": "2024-05-10T18:01Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T17:54:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T17:56:00Z",
+      "peak_time_original": "2024-05-10T17:56Z",
+      "record_id": "c30f7ed29c9e1d624462ba2bd6717fc18141c7ae99b3d164d2a216930ecf3d16",
+      "source_location": "S19W52",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/45"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30768/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T18:26:00Z",
+      "begin_time_original": "2024-05-10T18:26Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.1",
+      "end_time": "2024-05-10T18:38:00Z",
+      "end_time_original": "2024-05-10T18:38Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T18:26:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T18:32:00Z",
+      "peak_time_original": "2024-05-10T18:32Z",
+      "record_id": "e32209275b6a97c3d7e8cfc5c8e3c48ab364a72fea87058aa369754e85642d52",
+      "source_location": "S20W48",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/46"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30697/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T18:38:00Z",
+      "begin_time_original": "2024-05-10T18:38Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.7",
+      "end_time": "2024-05-10T18:57:00Z",
+      "end_time_original": "2024-05-10T18:57Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T18:38:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T18:48:00Z",
+      "peak_time_original": "2024-05-10T18:48Z",
+      "record_id": "cc152aa1321555f7b9dfc9874cbe82d537547e585cf6bd66f43dae9c3b43e546",
+      "source_location": "S17W44",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/47"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30699/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T18:57:00Z",
+      "begin_time_original": "2024-05-10T18:57Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.0",
+      "end_time": "2024-05-10T19:10:00Z",
+      "end_time_original": "2024-05-10T19:10Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T18:57:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T19:05:00Z",
+      "peak_time_original": "2024-05-10T19:05Z",
+      "record_id": "243ded1346bd966762850e6fa8bc4a0e394b77af723521f87a33925f3f7e23ef",
+      "source_location": "S17W43",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/48"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30700/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T19:35:00Z",
+      "begin_time_original": "2024-05-10T19:35Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.1",
+      "end_time": "2024-05-10T19:56:00Z",
+      "end_time_original": "2024-05-10T19:56Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T19:35:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T19:53:00Z",
+      "peak_time_original": "2024-05-10T19:53Z",
+      "record_id": "106f98b4a09147f7920e93128a05b0c26ade32fedc1707099a548ccfde4b2978",
+      "source_location": "S19W51",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/49"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30701/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T19:56:00Z",
+      "begin_time_original": "2024-05-10T19:56Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.9",
+      "end_time": "2024-05-10T20:18:00Z",
+      "end_time_original": "2024-05-10T20:18Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T19:56:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T20:03:00Z",
+      "peak_time_original": "2024-05-10T20:03Z",
+      "record_id": "ad1e27552eb97f9f9843c64b994a506abf6d68725457b7ea322634563d80b644",
+      "source_location": "S19W47",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/50"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30709/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T20:59:00Z",
+      "begin_time_original": "2024-05-10T20:59Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.8",
+      "end_time": "2024-05-10T21:12:00Z",
+      "end_time_original": "2024-05-10T21:12Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T20:59:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T21:08:00Z",
+      "peak_time_original": "2024-05-10T21:08Z",
+      "record_id": "8d9aa01efd75ecc67fbf59b966c81b6da12e7baba344142cedba05eb4b03bc7f",
+      "source_location": "S17W45",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/51"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30710/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-10T21:15:00Z",
+      "begin_time_original": "2024-05-10T21:15Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.4",
+      "end_time": "2024-05-10T22:07:00Z",
+      "end_time_original": "2024-05-10T22:07Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-10T21:15:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-10T21:25:00Z",
+      "peak_time_original": "2024-05-10T21:25Z",
+      "record_id": "63d8afa3806d6bb7c4a380f4d79a9f28da323d152b2970b774395bf208114828",
+      "source_location": "S20W52",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/52"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30769/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T01:10:00Z",
+      "begin_time_original": "2024-05-11T01:10Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X5.8",
+      "end_time": "2024-05-11T01:39:00Z",
+      "end_time_original": "2024-05-11T01:39Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T01:10:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-11T01:36:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-11T02:10:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-11T04:07:00-SEP-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-11T01:23:00Z",
+      "peak_time_original": "2024-05-11T01:23Z",
+      "record_id": "34cb3c37de3b0f351b13efae656ba0b58ed502619e52a49216ba161775cc84ed",
+      "source_location": "S17W47",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/53"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30711/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T04:28:00Z",
+      "begin_time_original": "2024-05-11T04:28Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.3",
+      "end_time": "2024-05-11T04:51:00Z",
+      "end_time_original": "2024-05-11T04:51Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T04:28:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T04:40:00Z",
+      "peak_time_original": "2024-05-11T04:40Z",
+      "record_id": "eafa98ad4f5054029e2a5d18fa1b113f28891467e171a139d6c627074196eeab",
+      "source_location": "S18W48",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/54"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30741/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T07:26:00Z",
+      "begin_time_original": "2024-05-11T07:26Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-11T08:14:00Z",
+      "end_time_original": "2024-05-11T08:14Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T07:26:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T07:42:00Z",
+      "peak_time_original": "2024-05-11T07:42Z",
+      "record_id": "d1234cd534aa794a3d800aebb3c705cb87c0fe9b4fa22d6b4126259f0940f223",
+      "source_location": "S20W60",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/55"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30770/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T08:14:00Z",
+      "begin_time_original": "2024-05-11T08:14Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.3",
+      "end_time": "2024-05-11T08:35:00Z",
+      "end_time_original": "2024-05-11T08:35Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T08:14:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T08:18:00Z",
+      "peak_time_original": "2024-05-11T08:18Z",
+      "record_id": "0c75490a4f3b1eb4dc513d52f9218d14780f4bd7cc781a07debdf06965ba6c1b",
+      "source_location": "S19W52",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/56"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30771/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T08:45:00Z",
+      "begin_time_original": "2024-05-11T08:45Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.4",
+      "end_time": "2024-05-11T09:04:00Z",
+      "end_time_original": "2024-05-11T09:04Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T08:45:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T08:56:00Z",
+      "peak_time_original": "2024-05-11T08:56Z",
+      "record_id": "1c00fc0a048c7b3c7439ee34958b8b11ac41f4d9a2ced12aa792b274c921d0db",
+      "source_location": "S19W52",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/57"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30772/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T09:05:00Z",
+      "begin_time_original": "2024-05-11T09:05Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.7",
+      "end_time": "2024-05-11T09:23:00Z",
+      "end_time_original": "2024-05-11T09:23Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T09:05:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T09:14:00Z",
+      "peak_time_original": "2024-05-11T09:14Z",
+      "record_id": "5d2a6f7bf7dbb24d28a1ca277df8069430d90bb6018a123afb3cccdd35012c3c",
+      "source_location": "S21W59",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/58"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30773/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T10:03:00Z",
+      "begin_time_original": "2024-05-11T10:03Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.1",
+      "end_time": "2024-05-11T10:34:00Z",
+      "end_time_original": "2024-05-11T10:34Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T10:03:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T10:18:00Z",
+      "peak_time_original": "2024-05-11T10:18Z",
+      "record_id": "7f83b986812e3345aebdece86bb3ee0644479edc83b1313f28a695fb4082ee6e",
+      "source_location": "S20W58",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/59"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30738/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T10:53:00Z",
+      "begin_time_original": "2024-05-11T10:53Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.6",
+      "end_time": "2024-05-11T11:00:00Z",
+      "end_time_original": "2024-05-11T11:00Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T10:53:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T10:56:00Z",
+      "peak_time_original": "2024-05-11T10:56Z",
+      "record_id": "b51f92422ffee11dee5c928ca221133ede6f470aef3496d214086a19ddf5d947",
+      "source_location": "S19W56",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/60"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30739/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T11:15:00Z",
+      "begin_time_original": "2024-05-11T11:15Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.5",
+      "end_time": "2024-05-11T12:05:00Z",
+      "end_time_original": "2024-05-11T12:05Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T11:15:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T11:44:00Z",
+      "peak_time_original": "2024-05-11T11:44Z",
+      "record_id": "6301b4eadec56afcf3f6f7b64a32710301936702aa2606d93baf1518223388c0",
+      "source_location": "S19W60",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/61"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30722/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T13:45:00Z",
+      "begin_time_original": "2024-05-11T13:45Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.7",
+      "end_time": "2024-05-11T14:08:00Z",
+      "end_time_original": "2024-05-11T14:08Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T13:45:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T13:49:00Z",
+      "peak_time_original": "2024-05-11T13:49Z",
+      "record_id": "b4c427f62beaa91a407caa3cd0d07b0b889a7b2a40872c372c27f8c392bfb38b",
+      "source_location": "S19W59",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/62"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30740/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T14:46:00Z",
+      "begin_time_original": "2024-05-11T14:46Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M8.8",
+      "end_time": "2024-05-11T15:52:00Z",
+      "end_time_original": "2024-05-11T15:52Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T14:46:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-11T16:24:00-CME-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-11T15:25:00Z",
+      "peak_time_original": "2024-05-11T15:25Z",
+      "record_id": "c27207df47855909c10530606ea8464776547b3593432f226d1b8d1e58c21eb7",
+      "source_location": "S17W53",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/63"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30729/-1",
+      "source_version": 4,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T16:27:00Z",
+      "begin_time_original": "2024-05-11T16:27Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.9",
+      "end_time": "2024-05-11T17:25:00Z",
+      "end_time_original": "2024-05-11T17:25Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T16:27:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T16:43:00Z",
+      "peak_time_original": "2024-05-11T16:43Z",
+      "record_id": "ea5db94119db6f0cd06afe45396ddf5f4f1c8cb8d6e86d722bdf663ea9811a67",
+      "source_location": "S15W50",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/64"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30774/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-11T20:32:00Z",
+      "begin_time_original": "2024-05-11T20:32Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-11T20:47:00Z",
+      "end_time_original": "2024-05-11T20:47Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-11T20:32:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-11T20:41:00Z",
+      "peak_time_original": "2024-05-11T20:41Z",
+      "record_id": "de2c8cc9fd297f271740314dee4c1280baf5bf8d69969eecbc31f8c7eaf3de4d",
+      "source_location": "S20W63",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/65"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30749/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T00:41:00Z",
+      "begin_time_original": "2024-05-12T00:41Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.2",
+      "end_time": "2024-05-12T00:52:00Z",
+      "end_time_original": "2024-05-12T00:52Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T00:41:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T00:45:00Z",
+      "peak_time_original": "2024-05-12T00:45Z",
+      "record_id": "0692a6bd430fb7abf9fbe0d201099cb9af5d0c931a9305b3471ec0b944c002fd",
+      "source_location": "S20W65",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/66"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30750/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": null,
+      "begin_time": "2024-05-12T05:37:00Z",
+      "begin_time_original": "2024-05-12T05:37Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.4",
+      "end_time": "2024-05-12T06:06:00Z",
+      "end_time_original": "2024-05-12T06:06Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T05:37:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T05:52:00Z",
+      "peak_time_original": "2024-05-12T05:52Z",
+      "record_id": "36c3e1b014834e056ad8d435adfbb47deecff5f2f1bbfc18328344921a7a71bc",
+      "source_location": "N22E90",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/67"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30778/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T12:27:00Z",
+      "begin_time_original": "2024-05-12T12:27Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.6",
+      "end_time": "2024-05-12T12:54:00Z",
+      "end_time_original": "2024-05-12T12:54Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T12:27:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T12:41:00Z",
+      "peak_time_original": "2024-05-12T12:41Z",
+      "record_id": "72bbdbb62fb9da6e2b72121445cd8b86629d7150cc92cecee4119ace1a5933c4",
+      "source_location": "S17W70",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/68"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30777/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": null,
+      "begin_time": "2024-05-12T13:40:00Z",
+      "begin_time_original": "2024-05-12T13:40Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-12T13:49:00Z",
+      "end_time_original": "2024-05-12T13:49Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T13:40:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T13:47:00Z",
+      "peak_time_original": "2024-05-12T13:47Z",
+      "record_id": "c02e6a9eaf38729b1f0c465f61849ee08ea555c00439078e2c31d960b7d96355",
+      "source_location": "S10W90",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/69"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30776/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T13:49:00Z",
+      "begin_time_original": "2024-05-12T13:49Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.5",
+      "end_time": "2024-05-12T14:08:00Z",
+      "end_time_original": "2024-05-12T14:08Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T13:49:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T13:56:00Z",
+      "peak_time_original": "2024-05-12T13:56Z",
+      "record_id": "67851a0a80674071f1ec01ba6d80a8cff15d4fe397df5c051b50728123dfb019",
+      "source_location": "S21W75",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/70"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30775/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T16:11:00Z",
+      "begin_time_original": "2024-05-12T16:11Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.0",
+      "end_time": "2024-05-12T16:38:00Z",
+      "end_time_original": "2024-05-12T16:38Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T16:11:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T16:26:00Z",
+      "peak_time_original": "2024-05-12T16:26Z",
+      "record_id": "dd67db9dfb79cff73fc9711dd70f1e4991db1d8ece0aa291b84936f67f26aa2f",
+      "source_location": "S21W75",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/71"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30760/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T20:17:00Z",
+      "begin_time_original": "2024-05-12T20:17Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.8",
+      "end_time": "2024-05-12T20:49:00Z",
+      "end_time_original": "2024-05-12T20:49Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T20:17:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T20:32:00Z",
+      "peak_time_original": "2024-05-12T20:32Z",
+      "record_id": "01e72e583b3035c8fafe9255f439aad386a253ccaf87f74da97b10ade7e1480e",
+      "source_location": "S18W73",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/72"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30790/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T22:01:00Z",
+      "begin_time_original": "2024-05-12T22:01Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.1",
+      "end_time": "2024-05-12T22:12:00Z",
+      "end_time_original": "2024-05-12T22:12Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T22:01:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T22:06:00Z",
+      "peak_time_original": "2024-05-12T22:06Z",
+      "record_id": "838e62445654d07d5a452199274cd2af6a2b1eab5d8e82c0056984ce108a36b5",
+      "source_location": "S18W74",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/73"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30791/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T22:14:00Z",
+      "begin_time_original": "2024-05-12T22:14Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.1",
+      "end_time": "2024-05-12T22:24:00Z",
+      "end_time_original": "2024-05-12T22:24Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T22:14:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T22:18:00Z",
+      "peak_time_original": "2024-05-12T22:18Z",
+      "record_id": "0d3976c95e1c4224bf709c7a76d2d10aedc85d4cb8933c227a8b8f8f357ee672",
+      "source_location": "S18W74",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/74"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30795/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-12T23:00:00Z",
+      "begin_time_original": "2024-05-12T23:00Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-12T23:14:00Z",
+      "end_time_original": "2024-05-12T23:14Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-12T23:00:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-12T23:10:00Z",
+      "peak_time_original": "2024-05-12T23:10Z",
+      "record_id": "0aec0d91a365af81e10dfd79e086bc3b2128efb35d4f018d8363f2d7d338fdf0",
+      "source_location": "S18W75",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/75"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30796/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T01:23:00Z",
+      "begin_time_original": "2024-05-13T01:23Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-13T01:38:00Z",
+      "end_time_original": "2024-05-13T01:38Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T01:23:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T01:33:00Z",
+      "peak_time_original": "2024-05-13T01:33Z",
+      "record_id": "2aa8285bfd3a93ff85717a27ce4426ce354d634e7297323f40e423fef4561c6f",
+      "source_location": "S18W76",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/76"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30802/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T08:06:00Z",
+      "begin_time_original": "2024-05-13T08:06Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.2",
+      "end_time": "2024-05-13T08:23:00Z",
+      "end_time_original": "2024-05-13T08:23Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T08:06:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-13T09:12:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-13T12:44:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T13:10:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T14:00:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T16:19:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-002"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-13T08:20:00Z",
+      "peak_time_original": "2024-05-13T08:20Z",
+      "record_id": "d965c38f912660e64eea32f5a67031f794ac70b63d272d885e8d9d3e538ea7a5",
+      "source_location": "S18W81",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/77"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30808/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T08:23:00Z",
+      "begin_time_original": "2024-05-13T08:23Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.4",
+      "end_time": "2024-05-13T08:33:00Z",
+      "end_time_original": "2024-05-13T08:33Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T08:23:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-13T09:12:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-13T12:44:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T13:10:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T14:00:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T16:19:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-002"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-13T08:29:00Z",
+      "peak_time_original": "2024-05-13T08:29Z",
+      "record_id": "e4a5f7dbcc4cdf582a11053341230c7ad51c7ce1a8c59b2ec6513562c1bac6d8",
+      "source_location": "S22W89",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/78"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30809/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T08:47:00Z",
+      "begin_time_original": "2024-05-13T08:47Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.9",
+      "end_time": "2024-05-13T09:36:00Z",
+      "end_time_original": "2024-05-13T09:36Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T08:47:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-13T09:12:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-13T12:44:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T13:10:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T14:00:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T16:19:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-002"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-13T09:33:00Z",
+      "peak_time_original": "2024-05-13T09:33Z",
+      "record_id": "c4c4918a5855509645a6fb68a7b46ed5a913c330b20dcb42b01e64dabe7d56c6",
+      "source_location": "S22W83",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/79"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30806/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T09:36:00Z",
+      "begin_time_original": "2024-05-13T09:36Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M6.6",
+      "end_time": "2024-05-13T10:57:00Z",
+      "end_time_original": "2024-05-13T10:57Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T09:36:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-13T09:12:00-CME-001"
+        },
+        {
+          "activityID": "2024-05-13T12:44:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T13:10:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T14:00:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T16:19:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-001"
+        },
+        {
+          "activityID": "2024-05-13T18:07:00-SEP-002"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-13T09:44:00Z",
+      "peak_time_original": "2024-05-13T09:44Z",
+      "record_id": "f15e56ceba4be909f923af28e3459fa2cc2dbf4fb5144be379f1394e11791c16",
+      "source_location": "S22W80",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/80"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30803/-1",
+      "source_version": 4,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T12:56:00Z",
+      "begin_time_original": "2024-05-13T12:56Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M3.7",
+      "end_time": "2024-05-13T13:23:00Z",
+      "end_time_original": "2024-05-13T13:23Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T12:56:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T13:11:00Z",
+      "peak_time_original": "2024-05-13T13:11Z",
+      "record_id": "1b6304e5257b9d5c565c1c05594e0b52d3533c2774ae00c0db317564490efcc1",
+      "source_location": "S17W89",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/81"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30816/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13676,
+      "begin_time": "2024-05-13T14:02:00Z",
+      "begin_time_original": "2024-05-13T14:02Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.4",
+      "end_time": "2024-05-13T14:11:00Z",
+      "end_time_original": "2024-05-13T14:11Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T14:02:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T14:07:00Z",
+      "peak_time_original": "2024-05-13T14:07Z",
+      "record_id": "171e1b209acfd0c41124d6850759dc0c20009aee0544aa75b10d5b00a20fa467",
+      "source_location": "S22E02",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/82"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30852/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T14:12:00Z",
+      "begin_time_original": "2024-05-13T14:12Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.5",
+      "end_time": "2024-05-13T14:22:00Z",
+      "end_time_original": "2024-05-13T14:22Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T14:12:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T14:15:00Z",
+      "peak_time_original": "2024-05-13T14:15Z",
+      "record_id": "8cc44dfe5bb586150f20f2b225076e97ca4df0343806a03a0f5d823393857747",
+      "source_location": "S18W80",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/83"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30853/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13674,
+      "begin_time": "2024-05-13T17:32:00Z",
+      "begin_time_original": "2024-05-13T17:32Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-13T18:23:00Z",
+      "end_time_original": "2024-05-13T18:23Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T17:32:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T17:47:00Z",
+      "peak_time_original": "2024-05-13T17:47Z",
+      "record_id": "033b7e1e4add3de1c49a2b02a14a4a6ceb9e8ea905c2a4ee6b69c67840757ead",
+      "source_location": "S10E45",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/84"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30828/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T18:38:00Z",
+      "begin_time_original": "2024-05-13T18:38Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.0",
+      "end_time": "2024-05-13T19:07:00Z",
+      "end_time_original": "2024-05-13T19:07Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T18:38:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T18:48:00Z",
+      "peak_time_original": "2024-05-13T18:48Z",
+      "record_id": "512da009365c1b287bcccc20c634dab776726759ca21ce57444e2b239e156f4b",
+      "source_location": "S18W85",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/85"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30854/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-13T21:48:00Z",
+      "begin_time_original": "2024-05-13T21:48Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M1.5",
+      "end_time": "2024-05-13T22:07:00Z",
+      "end_time_original": "2024-05-13T22:07Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-13T21:48:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-13T21:59:00Z",
+      "peak_time_original": "2024-05-13T21:59Z",
+      "record_id": "84ea92e8b36c24633625bb6a07459e047a380d2f77a7760b196204854a06ef72",
+      "source_location": "S18W89",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/86"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30835/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-14T01:23:00Z",
+      "begin_time_original": "2024-05-14T01:23Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M2.5",
+      "end_time": "2024-05-14T02:03:00Z",
+      "end_time_original": "2024-05-14T02:03Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-14T01:23:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [],
+      "linked_events_supplied": false,
+      "peak_time": "2024-05-14T01:48:00Z",
+      "peak_time_original": "2024-05-14T01:48Z",
+      "record_id": "2c8d7cadf31c48293e9686b222d62d1f7f94452d1879ff47f9fd9ca39a4b56e1",
+      "source_location": "S18W89",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/87"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30836/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-14T02:03:00Z",
+      "begin_time_original": "2024-05-14T02:03Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.7",
+      "end_time": "2024-05-14T02:19:00Z",
+      "end_time_original": "2024-05-14T02:19Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-14T02:03:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-14T02:24:00-CME-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-14T02:09:00Z",
+      "peak_time_original": "2024-05-14T02:09Z",
+      "record_id": "66df430c9b070a2cbd2c576ee7dc68995b6dfbe77a543d14933197d666974c77",
+      "source_location": "S19W89",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/88"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30832/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13679,
+      "begin_time": "2024-05-14T04:05:00Z",
+      "begin_time_original": "2024-05-14T04:05Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "C6.5",
+      "end_time": "2024-05-14T04:16:00Z",
+      "end_time_original": "2024-05-14T04:16Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-14T04:05:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-14T04:48:00-CME-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-14T04:08:00Z",
+      "peak_time_original": "2024-05-14T04:08Z",
+      "record_id": "334ecd25c0fedad30d846d6c5b4bbe2244b894b07727e9699c55e73cfebd18ec",
+      "source_location": "S09E60",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/89"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30839/-1",
+      "source_version": 2,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-14T12:40:00Z",
+      "begin_time_original": "2024-05-14T12:40Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X1.2",
+      "end_time": "2024-05-14T13:05:00Z",
+      "end_time_original": "2024-05-14T13:05Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-14T12:40:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-14T13:12:00-CME-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-14T12:55:00Z",
+      "peak_time_original": "2024-05-14T12:55Z",
+      "record_id": "d58a70f26182f3511b1af83b1a05433dbd63e337d267524779355db17ac27ee5",
+      "source_location": "S19W90",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/90"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30837/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13664,
+      "begin_time": "2024-05-14T16:46:00Z",
+      "begin_time_original": "2024-05-14T16:46Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "X8.7",
+      "end_time": "2024-05-14T17:02:00Z",
+      "end_time_original": "2024-05-14T17:02Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-14T16:46:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-14T17:00:00-CME-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-14T16:51:00Z",
+      "peak_time_original": "2024-05-14T16:51Z",
+      "record_id": "9e59dc7d158013b5ca61b8314754b99a99911a0ae12da78b8e6c477eff9dc38b",
+      "source_location": "S19W90",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/91"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30849/-1",
+      "source_version": 3,
+      "time_sequence_consistent": true
+    },
+    {
+      "active_region": 13682,
+      "begin_time": "2024-05-14T17:25:00Z",
+      "begin_time_original": "2024-05-14T17:25Z",
+      "catalog": "M2M_CATALOG",
+      "class_type": "M4.4",
+      "end_time": "2024-05-14T18:18:00Z",
+      "end_time_original": "2024-05-14T18:18Z",
+      "event_type": "FLR",
+      "external_id": "2024-05-14T17:25:00-FLR-001",
+      "instruments": [
+        "GOES-P: EXIS 1.0-8.0"
+      ],
+      "is_mars_surface_measurement": false,
+      "linked_events": [
+        {
+          "activityID": "2024-05-14T17:48:00-CME-001"
+        }
+      ],
+      "linked_events_supplied": true,
+      "peak_time": "2024-05-14T17:38:00Z",
+      "peak_time_original": "2024-05-14T17:38Z",
+      "record_id": "bad2b2ac2f5056773623315e8274af3c63e67acce835b9cfe66d16f24852c005",
+      "source_location": "N18E72",
+      "source_ref": {
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/92"
+        },
+        "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+      },
+      "source_url": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30855/-1",
+      "source_version": 1,
+      "time_sequence_consistent": true
+    }
+  ],
+  "is_mars_surface_measurement": false,
+  "ordering": "begin_time, external_id",
+  "period_requested": {
+    "endDate": "2024-05-14",
+    "startDate": "2024-05-08"
+  },
+  "release_id": "rel_40afe5ce9bfa07d6bf26fa729478db67",
+  "schema_version": "1.0.0",
+  "source_context": "solar_event_catalogue",
+  "source_file_id": "sha256:65a3ad0e7d10ef65d5d64a5f4ad3794d865376743ca5f6316c64aff767983b40"
+}
